@@ -1,0 +1,59 @@
+title: Oinam Jekyll
+author:
+  name: Oinam
+  email: hi@oinam.com
+description: > # this means to ignore newlines until "show_excerpts:"
+  A simple, clean, and minimal Jekyll Theme.
+
+# date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+oinam:
+  date_format: "%b %-d, %Y"
+
+  # generate social links in footer
+  social_links:
+    twitter: oinam
+    github:  oinam
+
+# Build settings
+theme: oinam
+
+markdown: kramdown
+highlighter: rouge
+future: false
+show_drafts: false
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  default_lang: html
+  css_class: syntax
+
+permalink: pretty
+permalink: /:title/
+
+sass:
+  style: compressed
+  sourcemap: never
+
+plugins:
+ - jekyll-feed
+
+# Posts
+defaults:
+  - scope:
+      path: '_posts'
+      type: 'posts'
+    values:
+      layout: 'post'
+      permalink: '/:year/:title/'
+
+exclude:
+  - .sass-cache
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - README.*
+  - LICENSE.*
+  - oinam.gemspec
+  - script

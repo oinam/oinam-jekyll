@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="post-meta">
+  <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%Y %b %-d %a' }}</time>
+  <span>{%- include read-time.html -%}</span>
+</div>
+  
+<article>
+  <h1>{{ page.title }}</h1>
+  {{ content }}
+</article>
+
+<div class="post-nav">
+  {%- if page.previous.url -%} 
+  <a href="{{ page.previous.url | prepend: site.baseurl }}" class="post-nav__prev" title="{{ page.previous.title }}">← Prev</a>
+  {%- endif -%}
+  {%- if page.next.url -%}  
+  <a href="{{ page.next.url | prepend: site.baseurl }}" class="post-nav__next" title="{{ page.next.title }}">Next →</a>
+  {%- endif -%} 
+</div>

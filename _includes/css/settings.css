@@ -1,0 +1,141 @@
+/*
+  default color-theme
+  change and play with the colors
+*/
+:root {
+  color-scheme: light dark;
+
+  --background-color: #fafafa; /* gray-50 */
+  --background-color-alt: #f4f4f5; /* gray-100 */
+  --background-color-accent: #fde68a; /* amber-200 */
+  --background-color-highlight: #e4e4e4; /* gray-200 */
+  
+  --text-color: #3f3f46; /* gray-700 */
+  --text-color-alt: #71717a; /* gray-500 */
+  
+  --border-color: #e4e4e7; /* gray-200 */
+  --border-color-highlight: #bfdbfe; /* blue-200 */
+
+  --text-color-link: #1d4ed8;
+  --text-color-link-visited: var(--text-color-link);
+  --text-color-link-hover: #1e3a8a;
+  --text-color-link-active: var(--text-color-link-hover);
+
+  --form-button-text-color: var(--text-color);
+  --form-button-text-color-active: var(--text-color);
+  --form-button-background-color: #3b82f6;
+  --form-button-background-color-disabled: #e4e4e7;
+  --form-button-background-color-active: var(--form-button-background-color);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #3f3f46; /* gray-700 */
+    --background-color-alt: #52525b; /* gray-600 */
+    --background-color-accent: #bfdbfe; /* blue-200 */
+    --background-color-highlight: #27272a; /* gray-800 */
+
+    --text-color: #f4f4f5; /* gray-100 */
+    --text-color-alt: #71717a; /* gray-500 */
+
+    --border-color: #52525b; /* gray-600 */
+    --border-color-highlight: #fde68a; /* amber-200 */
+
+    --text-color-link: #bfdbfe;
+    --text-color-link-visited: var(--text-color-link);
+    --text-color-link-hover: #60a5fa;
+    --text-color-link-active: var(--text-color-link-hover);
+
+    --form-button-text-color: var(--text-color);
+    --form-button-text-color-active: var(--text-color);
+    --form-button-background-color: #3b82f6;
+    --form-button-background-color-disabled: #e4e4e7;
+    --form-button-background-color-active: var(--form-button-background-color);
+  }
+}
+
+
+/* --------------------------------------- */
+:root {
+  --font-family-sans:       system-ui, -apple-system, 'Segoe UI', 'Roboto', Ubuntu, Cantarell, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-family-serif:      Georgia, 'Times New Roman', serif;
+  --font-family-monospace:  SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  --font-cursive:           cursive;
+
+  /* an ideal reading width - 48rem - 768px based off 16px:1rem */
+  /* 42 is an interesting number. ;-) */
+  /* remember to set this to media-queries too if you are not handling it separately */
+  --body-width: 42rem;
+
+  /* default: minor third scale progression */
+  --typescale-body: 1.2;
+
+  /* headings:  major third scale progression */
+  --typescale-heading: 1.25;
+
+  /* spacings */
+  --spacing-heading: 1rem;
+
+  
+  /* default: minor third scale progression */
+  --space-ratio: 1.2;
+
+  --space-base: 1;
+  --space-base-px: 16px;
+  --space-base-em: 1em;
+  --space-base-rem: 1rem;
+  
+  --spacescale0: 1;
+  --spacescale1: var(--space-ratio);                            /* 1.2   */
+  --spacescale2: calc(var(--space-ratio) * var(--spacescale1)); /* 1.44  */
+  --spacescale3: calc(var(--space-ratio) * var(--spacescale2)); /* 1.728 */
+  --spacescale4: calc(var(--space-ratio) * var(--spacescale3)); /* 2.074 */
+  --spacescale5: calc(var(--space-ratio) * var(--spacescale4)); /* 2.488 */
+  --spacescale6: calc(var(--space-ratio) * var(--spacescale5)); /* 2.986 */
+  --spacescale7: calc(var(--space-ratio) * var(--spacescale6)); /* 3.583 */
+
+  /* space - try to use these */
+  --space-base: var(--space-base-rem);
+  --space-half: calc(var(--space-base-rem) / 2);
+  --space-quarter: calc(var(--space-base-rem) / 4);
+  --space-double: calc(var(--space-base-rem) * 2);
+
+
+  /* typography */
+  --font-family: var(--font-family-serif);
+  --font-family-headings: var(--font-family-serif);
+  
+  --font-size: 16px;
+  --font-size-small: 85%;
+  --font-size-smaller: 75%;
+  --font-size-smallest: 65%;
+  
+  --line-height: 1.618;
+  --line-height-heading: 1.25;
+
+  --border-width: 1px;
+  --border-width-alt: 3px;
+  
+  --border-radius: 0.3rem;
+  --border-radius-high: 0.7rem;
+  --border-radius-round: 100%;
+
+  
+  --image-width-max: 1200px; /*there is a limit to how wide an image can be*/
+
+  
+  /* color - standard */
+  --color-black: #000000;
+  --color-white: #ffffff;
+
+  --opacity-no: 1;
+  --opacity-low: 0.9;
+  --opacity-lower: 0.75;
+  --opacity-lowest: 0.6;
+}
+
+@media (prefers-color-scheme: dark) {
+  img, video {
+    opacity: var(--opacity-low);
+  }
+}
