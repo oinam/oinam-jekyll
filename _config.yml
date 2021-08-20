@@ -5,18 +5,8 @@ author:
 description: > # this means to ignore newlines until "show_excerpts:"
   A simple, clean, and minimal Jekyll Theme.
 
-# date format
-# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
-oinam:
-  date_format: "%b %-d, %Y"
-
-  # generate social links in footer
-  social_links:
-    twitter: oinam
-    github:  oinam
-
 # Build settings
-theme: oinam
+# theme: oinam
 
 markdown: kramdown
 highlighter: rouge
