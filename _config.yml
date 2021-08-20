@@ -7,16 +7,6 @@ highlighter: rouge
 permalink: pretty
 permalink: /:title/
 
-feed:
-  posts_limit: 10
-  author: Brajeshwar
-
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  default_lang: html
-  css_class: syntax
-
 defaults:
   - scope:
       path: '_posts'
