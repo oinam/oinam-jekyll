@@ -2,10 +2,6 @@
 
 A simple, clean, and minimal Jekyll Theme.
 
-[Theme preview](https://jekyll.github.io/minima/)
-
-![minima theme preview](/screenshot.png)
-
 ## Installation
 
 Add this line to your Jekyll site's Gemfile:
