@@ -1,12 +1,15 @@
 title: Oinam Jekyll
-author:
-  name: Oinam
-  email: hi@oinam.com
-description: > # this means to ignore newlines until "show_excerpts:"
-  A simple, clean, and minimal Jekyll Theme.
+description: A simple, clean, and minimal Jekyll Theme.
 
 markdown: kramdown
 highlighter: rouge
+
+permalink: pretty
+permalink: /:title/
+
+feed:
+  posts_limit: 10
+  author: Brajeshwar
 
 kramdown:
   input: GFM
@@ -14,17 +17,6 @@ kramdown:
   default_lang: html
   css_class: syntax
 
-permalink: pretty
-permalink: /:title/
-
-sass:
-  style: compressed
-  sourcemap: never
-
-plugins:
- - jekyll-feed
-
-# Posts
 defaults:
   - scope:
       path: '_posts'
@@ -33,13 +25,19 @@ defaults:
       layout: 'post'
       permalink: '/:year/:title/'
 
+sass:
+  style: compressed
+  sourcemap: never
+
+plugins:
+ - jekyll-feed
+
 exclude:
-  - .sass-cache
   - .jekyll-cache
+  - .sass-cache
   - Gemfile
   - Gemfile.lock
-  - README.*
   - LICENSE.*
-  - oinam.gemspec
-  - script
   - oinam-*.gem
+  - oinam.gemspec
+  - README.*
