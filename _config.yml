@@ -5,13 +5,8 @@ author:
 description: > # this means to ignore newlines until "show_excerpts:"
   A simple, clean, and minimal Jekyll Theme.
 
-# Build settings
-# theme: oinam
-
 markdown: kramdown
 highlighter: rouge
-future: false
-show_drafts: false
 
 kramdown:
   input: GFM
@@ -47,3 +42,4 @@ exclude:
   - LICENSE.*
   - oinam.gemspec
   - script
+  - oinam-*.gem
