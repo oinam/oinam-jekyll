@@ -19,7 +19,7 @@ sass:
   style: compressed
   sourcemap: never
 
-theme: null
+theme: jekyll-theme-minimal
 remote_theme: null
 
 plugins:
