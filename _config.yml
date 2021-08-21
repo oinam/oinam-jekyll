@@ -19,7 +19,7 @@ sass:
   style: compressed
   sourcemap: never
 
-remote_theme: oinam/oinam
+remote_theme: oinam/oinam-jekyll
 
 plugins:
  - jekyll-feed
@@ -33,3 +33,4 @@ exclude:
   - oinam-*.gem
   - oinam.gemspec
   - README.*
+  - oinam-jekyll-cover.png
