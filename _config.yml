@@ -1,7 +1,7 @@
 title: Oinam Jekyll
 description: A simple, clean, and minimal Jekyll Theme.
 
-theme: null
+remote_theme: oinam-jekyll
 markdown: kramdown
 highlighter: rouge
 
