@@ -19,7 +19,8 @@ sass:
   style: compressed
   sourcemap: never
 
-remote_theme: oinam/oinam-jekyll
+theme: null
+remote_theme: null
 
 plugins:
  - jekyll-feed
