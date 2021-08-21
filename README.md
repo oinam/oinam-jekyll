@@ -1,4 +1,4 @@
-# Oinam
+# Oinam Jekyll
 
 A simple, clean, and minimal Jekyll Theme.
 
@@ -7,7 +7,7 @@ A simple, clean, and minimal Jekyll Theme.
 Add this line to your Jekyll site's Gemfile:
 
 ```ruby
-gem "oinam"
+gem "oinam-jekyll"
 ```
 
 Run
@@ -19,7 +19,7 @@ Run
 Have the following line in your config file:
 
 ```yaml
-theme: oinam
+theme: oinam-jekyll
 ```
 
 ## License
