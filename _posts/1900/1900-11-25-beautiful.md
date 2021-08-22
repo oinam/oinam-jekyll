@@ -1,0 +1,3 @@
+# Beautiful
+
+Once upon a time, there was a beautiful and intelligent young lady whose name was Sita. She had such a low self-esteem that she felt worthless and empty. She did not have the ability to judge herself objectively. When a doctor assured her that she was of a normal weight, Sita accepted this without further investigating. One day Sita observed that her friends had popular online blogs. Sita calculated that her male followers far outnumbered the females, and that couldn't be right. Therefore she concluded that she was not attractive enough

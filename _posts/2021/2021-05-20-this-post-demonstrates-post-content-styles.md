@@ -8,6 +8,13 @@ author:
 meta: "Springfield"
 ---
 
+<figure>
+  <img src="{{ site.url | relative_url }}/static/img/alpha-oinam-fGkBx7hX9Ms-unsplash.jpg" alt="Apple iMac" loading="lazy">
+  <figcaption>
+    An Apple iMac as the Primary Work Machine. Photo by <a href="https://unsplash.com/photos/fGkBx7hX9Ms">Oinam</a>.
+  </figcaption>
+</figure>
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
 
 ## Some great heading (h2)

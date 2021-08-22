@@ -7,6 +7,7 @@
 html {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 body {
@@ -25,6 +26,7 @@ body {
   margin: 0 auto;
   padding: 0 var(--space-half);
   max-width: var(--body-width);
+  height: 100%;
   
   overflow-x: hidden;
   word-break: break-word;
@@ -200,6 +202,7 @@ mark {
 }
 
 img {
+  display: inline-block;
   max-width: 100%;
   height: auto;
   border-radius: var(--border-radius);
@@ -260,4 +263,8 @@ th {
 table caption {
   font-weight: bold;
   margin-bottom: var(--space-half);
+}
+
+footer {
+  font-size: var(--font-size-small);
 }

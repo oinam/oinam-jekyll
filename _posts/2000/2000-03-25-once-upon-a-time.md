@@ -1,0 +1,5 @@
+# Once upon a time
+
+Once upon a time, there was a young man who was convinced that his neighbor was an agent of the devil. Since no trusted the local priest, he decided to go straight to the top with his problem. One day, he went to visit the Pope himself. Addressing him the young man said, "Your Holiness, my neighbor is an agent of the devil. Every day he sends me notes asking me to sin." The Pope replied, "Just put him on a mailing list. And for your penance -- go deliver spiritual guidance to a flock of geese." And Jesus said unto him, "Go and thou shalt set to frying pan contents on fire."
+
+For not wonting to pay a call on St. Elijah Dear Satirist, I am afraid to admit we do not have this onion online anymore as the onion lost its spirit of satire to take itself serious. The entire story is reproduced in the

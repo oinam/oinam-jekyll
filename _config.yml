@@ -1,12 +1,21 @@
 title: Oinam Jekyll
 description: A simple, clean, and minimal Jekyll Theme.
+url: ''
+baseurl: ''
 
-theme: null
 markdown: kramdown
 highlighter: rouge
 
 permalink: pretty
 permalink: /:title/
+
+plugins:
+ - jekyll-feed
+ - jekyll-feed
+ - jekyll-paginate
+ - jekyll-sitemap
+ - jekyll-optional-front-matter
+ - jekyll-titles-from-headings
 
 defaults:
   - scope:
@@ -16,16 +25,23 @@ defaults:
       layout: 'post'
       permalink: '/:year/:title/'
 
+titles_from_headings:
+  enabled: true
+  strip_title: true
+  collections: true
+
 sass:
   style: compressed
   sourcemap: never
 
-plugins:
- - jekyll-feed
-
 exclude:
+  - .jekyll-cache/
+  - .sass-cache/
   - Gemfile
+  - gemfiles/
   - Gemfile.lock
   - LICENSE.*
-  - README.*
   - netlify.toml
+  - node_modules/
+  - README.*
+  - vendor/

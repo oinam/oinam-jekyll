@@ -1,0 +1,5 @@
+# Peasant Farmer
+
+Once upon a time, there was a peasant farmer who was very, very poor. He lived in a little hut on the edge of a dark forest in a poor, wind-blown village. The man had a family and they worked together to scratch out a meager living. The man's wife and children went to the fields early each morning and worked till evening. They helped cultivate barley and wheat. The barley was used as feed for a pig; the wheat was made into taro dumplings.
+
+Every day, a little boy from the little family would take the livestock out to the fields, and collect firewood from the forest.  There was a lot of work involved in feeding the family - feeding the family's cow, sheep, dog, and cooking fire. One morning, the little boy had just let the family's cow and sheep out to the fields, when he looked up to the edge of the forest and noticed a strange shrieking, beating sound. He thought it sounded like
