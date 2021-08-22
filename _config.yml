@@ -11,7 +11,6 @@ permalink: /:title/
 
 plugins:
  - jekyll-feed
- - jekyll-feed
  - jekyll-paginate
  - jekyll-sitemap
  - jekyll-optional-front-matter
