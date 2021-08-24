@@ -15,7 +15,7 @@ layout: default
   {%- endif -%}
     <li class="one-liner">
       <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%b %d' }}</time>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ site.baseurl | prepend: site.url }}{{ post.url }}">{{ post.title }}</a>
     </li>
   {%- if forloop.last -%}</ul>{% endif %}
 {% endfor %}

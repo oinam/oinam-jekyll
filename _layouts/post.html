@@ -15,12 +15,12 @@ layout: default
 <div class="post-nav">
   <span>
     {%- if page.previous.url -%} 
-    <a href="{{ page.previous.url | prepend: site.baseurl }}" class="post-nav__prev" title="{{ page.previous.title }}">← Prev</a>
+    <a href="{{ page.previous.url | prepend: site.baseurl | prepend: site.url }}" class="post-nav__prev" title="{{ page.previous.title }}">← Prev</a>
     {%- endif -%}
   </span>
   <span>
     {%- if page.next.url -%}  
-    <a href="{{ page.next.url | prepend: site.baseurl }}" class="post-nav__next" title="{{ page.next.title }}">Next →</a>
+    <a href="{{ page.next.url | prepend: site.baseurl | prepend: site.url }}" class="post-nav__next" title="{{ page.next.title }}">Next →</a>
     {%- endif -%} 
   </span>
 </div>

@@ -7,3 +7,10 @@
 #
 layout: home
 ---
+
+[//]: # You can delete this section below. Added here for Demo.
+
+> [Demo](https://oinam.github.io/oinam-jekyll/)\
+> [Source](https://github.com/oinam/oinam-jekyll)\
+> [README](https://github.com/oinam/oinam-jekyll#readme)\
+> [Download](https://github.com/oinam/oinam-jekyll/archive/refs/heads/main.zip)

@@ -1,6 +1,11 @@
 title: Oinam Jekyll
 description: Clean, Simple, and Minimal Design.
 
+# Set this to your domain; baseurl is for the folder in your domain, if you have one -- `blog`
+# you can leave both of them blank if you are deploying on a top-level domain
+url: https://oinam.github.io
+baseurl: /oinam-jekyll
+
 markdown: kramdown
 highlighter: rouge
 
