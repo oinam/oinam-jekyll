@@ -10,8 +10,8 @@
 
 ### Posts
 
-`{% include video source="youtube" id="qaF6dPiJ-NM" %}`
-`source`: `youtube`, `vimeo`, or `google-drive`
+`{% include video source="youtube" id="qaF6dPiJ-NM" %}`\
+`source`: `youtube`, `vimeo`, or `google-drive`\
 `id`: code you find in the Video URL such as `https://www.youtube.com/watch?v=qaF6dPiJ-NM` (the one after `?v`).
 
 ## License
