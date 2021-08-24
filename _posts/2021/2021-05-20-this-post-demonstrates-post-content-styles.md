@@ -9,9 +9,9 @@ meta: "Springfield"
 ---
 
 <figure>
-  <img src="{{ site.url | relative_url }}/static/img/alpha-oinam-fGkBx7hX9Ms-unsplash.jpg" alt="Apple iMac" loading="lazy">
+  <img src="https://picsum.photos/1000/600" alt="Image Alt" loading="lazy">
   <figcaption>
-    An Apple iMac as the Primary Work Machine. Photo by <a href="https://unsplash.com/photos/fGkBx7hX9Ms">Oinam</a>.
+    A picture caption that details what this picture is about.
   </figcaption>
 </figure>
 

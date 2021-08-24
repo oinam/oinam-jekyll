@@ -1,4 +1,5 @@
 <header class="header">
   <h1><a href="{{ site.baseurl }}/" title="{{ site.title }}">{{ site.title }}</a></h1>
+  {% if site.description %}<h2>{{ site.description | escape }}</h2>{% endif %}
   {% include nav.html %}
 </header>

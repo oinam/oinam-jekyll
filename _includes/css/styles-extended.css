@@ -21,8 +21,9 @@ footer.footer {
 
 /* title/logo */
 header.header h1 {
-  font-size: calc(var(--font-size) * calc(1.618 * var(--typescale-heading));
+  font-size: calc(var(--font-size) * var(--typescale-heading) * var(--typescale-heading) * var(--typescale-heading));
   font-weight: 700;
+  margin-bottom: 0;
 }
 
 header.header h1 a, header.header h1 a:visited {
@@ -33,6 +34,14 @@ header.header h1 a, header.header h1 a:visited {
 header.header h1 a:hover, header.header h1 a:active {
   color: var(--text-color-link);
   text-decoration: none;
+}
+
+header.header h2 {
+  padding: 0;
+  margin: var(--space-half) 0;
+
+  font-size: calc(var(--font-size) * var(--typescale-heading));
+  font-weight: 400;
 }
 
 /* nav links (header/footer) */

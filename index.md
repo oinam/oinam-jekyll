@@ -10,8 +10,6 @@ layout: home
 
 [//]: # You can remove this and the content below to have a homepage with just the articles.
 
-{{ site.description}}
-
 - [Demo](https://oinam.github.io/oinam-jekyll/)
 - [Source](https://github.com/oinam/oinam-jekyll)
 - [README](https://github.com/oinam/oinam-jekyll/blob/main/README.md)
