@@ -11,6 +11,7 @@
 
 ## Installation
 
+Github Pages supported Jekyll Plugins, https://pages.github.com/versions/
 Add this line to your Jekyll site's Gemfile:
 
 ```ruby
@@ -28,6 +29,11 @@ Have the following line in your config file:
 ```yaml
 theme: oinam-jekyll
 ```
+
+### Posts
+
+`{% include video source="youtube" id="qaF6dPiJ-NM" %}`
+where `source` can be `youtube`, `vimeo`, or `google-drive` and the `id` is the specific code you find in the YouTube Video URL such as `https://www.youtube.com/watch?v=qaF6dPiJ-NM` (the one after `?v`).
 
 ## License
 

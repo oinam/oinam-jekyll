@@ -10,9 +10,6 @@ permalink: pretty
 permalink: /:title/
 
 plugins:
- - jekyll-feed
- - jekyll-paginate
- - jekyll-sitemap
  - jekyll-optional-front-matter
  - jekyll-titles-from-headings
 
