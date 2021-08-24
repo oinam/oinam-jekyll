@@ -247,6 +247,7 @@ audio {
 }
 
 table {
+  margin: var(--space-base) 0;
   border-collapse: collapse;
   width: 100%;
 }

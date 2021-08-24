@@ -1,5 +1,5 @@
 title: Oinam Jekyll
-description: A simple, clean, and minimal Jekyll Theme.
+description: Clean, Simple, and Minimal Design.
 
 markdown: kramdown
 highlighter: rouge
@@ -32,10 +32,11 @@ exclude:
   - .jekyll-cache/
   - .sass-cache/
   - Gemfile
-  - gemfiles/
   - Gemfile.lock
-  - LICENSE.*
+  - gemfiles/
+  - LICENSE
   - netlify.toml
   - node_modules/
+  - oinam-jekyll.gemspec
   - README.*
   - vendor/

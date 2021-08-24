@@ -7,10 +7,3 @@
 #
 layout: home
 ---
-
-[//]: # You can remove this and the content below to have a homepage with just the articles.
-
-- [Demo](https://oinam.github.io/oinam-jekyll/)
-- [Source](https://github.com/oinam/oinam-jekyll)
-- [README](https://github.com/oinam/oinam-jekyll/blob/main/README.md)
-- [Download](https://github.com/oinam/oinam-jekyll/archive/refs/heads/main.zip)

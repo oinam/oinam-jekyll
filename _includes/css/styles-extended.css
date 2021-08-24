@@ -11,12 +11,14 @@ header.header {
   padding: var(--space-base) 0;
   margin-bottom: var(--space-double);
   border-bottom: var(--border-width) solid var(--border-color);
+  text-align: center;
 }
 
 footer.footer {
   padding: var(--space-base) 0;
   margin-top: var(--space-double);
   border-top: var(--border-width) solid var(--border-color);
+  text-align: center;
 }
 
 /* title/logo */
@@ -149,16 +151,21 @@ nav a:hover, nav a:active {
   text-decoration: none;
 }
 
-/* rogue syntax highlighter - applies to both the DIV and PRE */
+/* rogue syntax highlighter - applies to both the DIV and the PRE inside it. */
 .highlight {
   margin: var(--space-base) 0;
-  padding: 0;
+  padding: var(--space-quarter) var(--space-base);
   width: 100%;
   transform: translateX(0);
   text-align: left;
   background: none;
   border: 0 none;
   border-radius: var(--border-radius);
+}
+/* when using % highlight code % */
+figure.highlight {
+  margin: 0;
+  padding: 0;
 }
 
 /* responsive video embeds */

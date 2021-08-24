@@ -1,2 +1,11 @@
 - title: About
   url: /about/
+
+- title: Demo
+  url: https://oinam.github.io/oinam-jekyll/
+
+- title: Source
+  url: https://github.com/oinam/oinam-jekyll
+
+- title: Download
+  url: https://github.com/oinam/oinam-jekyll/archive/refs/heads/main.zip

@@ -1,5 +1,5 @@
 <nav>
-  {% for menu in site.data.nav %}
+  {% for menu in site.data.nav -%}
     <a href="{{ site.url | relative_url }}{{ menu.url }}">{{ menu.title }}</a>
-  {% endfor %}
+  {% endfor -%}
 </nav>
