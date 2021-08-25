@@ -5,13 +5,6 @@ description: Clean, Simple, and Minimal Design.
 # you can leave both of them blank if you are deploying on a top-level domain
 url: https://oinam.github.io
 baseurl: /oinam-jekyll
-
-# custom footer content
-footer:
-  credit: false # true (default), false
-  text: true # false (default), true
-  text_custom:
-    text_show: 'This is my custom text.'
   
 markdown: kramdown
 highlighter: rouge
