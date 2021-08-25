@@ -139,3 +139,11 @@
     opacity: var(--opacity-low);
   }
 }
+
+
+{% if site.styles.font_family == 'serif' %}
+:root {
+  --font-family: var(--font-family-serif);
+  --font-family-headings: var(--font-family-serif);
+}
+{% endif %}
