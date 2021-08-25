@@ -18,9 +18,9 @@
 
 ### Images (add classes to normal HTML images)
 
-- default images either with HTML or Markdon are left as it is along with the content flow.
+- default images either with HTML or Markdown are left as it is along with the content flow.
 - `<figure>` are treated as large images with a caption.
-- `.large` same size as `<figure>`, caption is optional
+- `.large` same size as `<figure>` but without the caption.
 - `.medium` extends a little both sides of the content, same as `blockquote` width.
 - `small left` or `small right` to flush a small image to the left/right
 - MarkDown Images with a caption is also styled. So, you can do something like;
