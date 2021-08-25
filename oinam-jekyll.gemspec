@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
     f.match(%r{^(assets|_(data|includes|layouts|sass)/|(LICENSE|README|CHANGELOG)((\.(txt|md|markdown)|$)))}i)
   end
 
-  spec.add_runtime_dependency "jekyll", ">= 3.9.0", "< 5.0"
+  spec.add_runtime_dependency "jekyll", "~> 3.9.0"
   spec.add_runtime_dependency "jekyll-optional-front-matter", "~> 0.3.2"
   spec.add_runtime_dependency "jekyll-titles-from-headings", "~> 0.5.3"
 

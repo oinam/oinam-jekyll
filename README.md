@@ -8,6 +8,16 @@
 - [Source](https://github.com/oinam/oinam-jekyll)
 - [Download](https://github.com/oinam/oinam-jekyll/archive/refs/heads/main.zip)
 
+## Customize Oinam-Jekyll as your own
+
+### Template (Modify and Use)
+
+This is the easiest
+
+### Remote Theme
+
+``
+
 ## Posts
 
 ### Video
