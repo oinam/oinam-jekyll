@@ -46,6 +46,8 @@ $ bundle exec jekyll serve --drafts --future --incremental
 
 ## Contributing
 
+[Github Pages Jekyll & Plugins](https://pages.github.com/versions/)
+
 If you wish to contribute to the theme;
 
 $ ./server

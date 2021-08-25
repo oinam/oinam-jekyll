@@ -81,7 +81,7 @@ nav a:hover, nav a:active {
 
   img.medium {
     margin-left: calc(-1 * var(--space-double));
-    width: calc(var(--body-width) + calc(3 * var(--space-base)); /* body-width + 4 x base-spacing, minus the negative margin */
+    width: calc(var(--body-width) + calc(3 * var(--space-base)));
     max-width: 100vw;
   }
 
