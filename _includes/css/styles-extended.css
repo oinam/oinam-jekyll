@@ -50,9 +50,7 @@ header.header h2 {
   font-weight: 400;
 }
 
-header.header h1,
-header.header h2,
-header.header h3 {
+header.header :is(h1, h2, h3, h4, h5, h6) {
   font-family: var(--font-family-sans);
 }
 
@@ -84,7 +82,8 @@ nav a:hover, nav a:active {
   }
   
   figure,
-  img.large {
+  img.large,
+  img.large + em {
     margin-left: calc(50% - 50vw);
     margin-right: calc(50% - 50vw);
     
@@ -93,7 +92,8 @@ nav a:hover, nav a:active {
     transform: translateX(calc(50vw - 50%));
   }
 
-  img.medium {
+  img.medium,
+  img.medium + em {
     margin-left: calc(-1 * var(--space-double));
     width: calc(var(--body-width) + calc(3 * var(--space-base)));
     max-width: 100vw;
@@ -115,13 +115,8 @@ nav a:hover, nav a:active {
 }
 
 /* images */
-article img {
-  display: block;
-}
-
-article a + em, /* need a better way to raget linked image caption */
-article img + em,
-article img + strong {
+/* need fix for images with hyperlinks */
+img + em {
   /* similar styling to figcaption */
   display: block;
   opacity: var(--opacity-low);
@@ -136,7 +131,8 @@ article img + strong {
   border-bottom: 1px solid var(--border-color);
 }
 
-img.full {
+img.full,
+img.full + em {
   position: relative;
   left: 50%;
   right: 50%;
@@ -155,9 +151,7 @@ img.full {
   list of items with a heading and lists
   DIV.items-list [h1/h2/h3 > ul/ol > li]
 --------------------------------------- */
-.items-list h1,
-.items-list h2,
-.items-list h3 {
+.items-list :is(h1, h2, h3, h4, h5, h6) {
   display: inline-block;
   margin: var(--space-base) var(--space-base) 0;
   padding: var(--space-quarter) var(--space-base);
@@ -172,8 +166,7 @@ img.full {
   font-size: calc(var(--font-size) * var(--typescale-heading));
 }
 
-.items-list ul,
-.items-list ol {
+.items-list :is(ul, ol) {
   margin: 0 0 var(--space-base) 0;
   padding: 0;
   
@@ -182,8 +175,9 @@ img.full {
   border-radius: var(--border-radius);
 }
 
-.items-list ul li,
-.items-list ol li {
+/*.items-list:is(ul, ol) li {}*/
+
+.items-list :is(ul, ol) li {
   list-style: none;
   padding: calc(1.5 * var(--space-quarter)) var(--space-base);
   border-bottom: 1px solid var(--border-color);
@@ -195,18 +189,15 @@ img.full {
   -webkit-box-orient: vertical;
 }
 
-.items-list ul li:last-child,
-.items-list ol li:last-child {
+.items-list :is(ul, ol) li:last-child {
   border: 0 none;
 }
 
-.items-list ul li:nth-child(even),
-.items-list ol li:nth-child(even) {
+.items-list :is(ul, ol) li:nth-child(even) {
   background: var(--background-color-alt);
 }
 
-.items-list ul time,
-.items-list ol time {
+.items-list :is(ul, ol) time {
   margin: 0;
   padding: 0 var(--space-quarter);
   
@@ -268,9 +259,7 @@ figure.highlight {
 
   border-radius: var(--border-radius);
 }
-.video-wrap iframe,
-.video-wrap object,
-.video-wrap embed {
+.video-wrap :is(iframe, object, embed) {
   position: absolute;
   top: 0;
   left: 0;
