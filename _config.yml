@@ -11,7 +11,7 @@ footer:
   credit: false # true (default), false
   text: true # false (default), true
   text_custom:
-    text_show: 'This is my custom text, with <a href="https://oinam.com">Link</a>.'
+    text_show: 'This is my custom text.'
   
 markdown: kramdown
 highlighter: rouge
