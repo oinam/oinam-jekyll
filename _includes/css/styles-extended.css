@@ -69,7 +69,8 @@ nav a:hover, nav a:active {
     margin-right: calc(-1 * var(--space-double));
   }
   
-  figure {
+  figure,
+  img.large {
     margin-left: calc(50% - 50vw);
     margin-right: calc(50% - 50vw);
     
@@ -77,6 +78,61 @@ nav a:hover, nav a:active {
     max-width: var(--image-width-max);
     transform: translateX(calc(50vw - 50%));
   }
+
+  img.medium {
+    margin-left: calc(-1 * var(--space-double));
+    width: calc(var(--body-width) + calc(3 * var(--space-base)); /* body-width + 4 x base-spacing, minus the negative margin */
+    max-width: 100vw;
+  }
+
+  img.small {
+    max-width: 50%;
+    height: auto;
+  }
+
+  img.small.left,
+  img.small.right {
+    margin-bottom: var(--space-base);
+  }
+
+  img.small.left  { float: left; margin-right: var(--space-base); margin-left: calc(-1 * var(--space-double)); }
+  img.small.right { float: right; margin-left: var(--space-half); margin-right: calc(-1 * var(--space-double)); }
+}
+
+/* images */
+article img {
+  display: block;
+}
+
+article a + em, /* need a better way to raget linked image caption */
+article img + em,
+article img + strong {
+  /* similar styling to figcaption */
+  display: block;
+  opacity: var(--opacity-low);
+  margin: 0;
+  padding: var(--space-half);
+  
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-smaller);
+  font-style: normal;
+  text-align: center;
+
+  border-bottom: 1px solid var(--border-color);
+}
+
+img.full {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  
+  margin-left: -50vw;
+  margin-right: -50vw;
+  
+  width: 100vw;
+  max-width: 100vw;
+  
+  border-radius: 0;
 }
 
 /*

@@ -1,7 +1,12 @@
 <footer class="footer">
   {% include nav.html %}
+
   <p>
-    <small>© {{ "now" | date: "%Y" }} {{ site.title }}.</small>
-    <small><a href="https://oinam.github.io/oinam-jekyll/">Oinam Jekyll Theme</a>.</small>
+    {% case site.footer.text %}
+    {% when "text_custom" %}
+      {{ site.footer.text_custom.text_show }}
+    {% endcase %}
+    {% if site.footer.credit != false %}<small><a href="https://oinam.github.io/oinam-jekyll/">Oinam Jekyll</a>.</small>{% endif %}
   </p>
+
 </footer>

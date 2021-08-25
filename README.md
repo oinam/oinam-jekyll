@@ -16,6 +16,20 @@
 `source`: `youtube`, `vimeo`, or `google-drive`\
 `id`: code you find in the Video URL such as `https://www.youtube.com/watch?v=qaF6dPiJ-NM` (the one after `?v`).
 
+### Images (add classes to normal HTML images)
+
+- default images either with HTML or Markdon are left as it is along with the content flow.
+- `<figure>` are treated as large images with a caption.
+- `.large` same size as `<figure>`, caption is optional
+- `.medium` extends a little both sides of the content, same as `blockquote` width.
+- `small left` or `small right` to flush a small image to the left/right
+- MarkDown Images with a caption is also styled. So, you can do something like;
+
+```
+![Image Title/Alt)](/cdn/source/image.jpg)
+_This is the caption._
+```
+
 ## Development
 
 $ bundle exec jekyll serve --drafts --future --incremental
@@ -23,6 +37,10 @@ $ bundle exec jekyll serve --drafts --future --incremental
 ## Contributing
 
 If you wish to contribute to the theme;
+
+$ ./server
+
+or
 
 $ bundle exec jekyll serve --drafts --future --incremental --config _config.yml,_config_dev.yml
 
