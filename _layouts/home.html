@@ -4,18 +4,20 @@ layout: default
 
 {{ content }}
 
+<div class="items-list">
 {%- for post in site.posts -%}
 {%- assign currentdate = post.date | date: "%Y" -%}
 
-{%- if currentdate != date -%}
-  {%- unless forloop.first -%}</ul>{% endunless %}
-  <h2 class="posts-list__title" id="year-{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
-  <ul class="posts-list__items">
-    {% assign date = currentdate %}
-  {%- endif -%}
-    <li class="one-liner">
-      <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%b %d' }}</time>
-      <a href="{{ site.baseurl | prepend: site.url }}{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {%- if forloop.last -%}</ul>{% endif %}
-{% endfor %}
+  {%- if currentdate != date -%}
+    {%- unless forloop.first -%}</ul>{% endunless %}
+    <h2 id="year-{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
+    <ul>
+      {% assign date = currentdate %}
+    {%- endif -%}
+      <li>
+        <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%b %d' }}</time>
+        <a href="{{ site.baseurl | prepend: site.url }}{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {%- if forloop.last -%}</ul>{% endif %}
+  {% endfor %}
+</div>

@@ -79,8 +79,14 @@ nav a:hover, nav a:active {
   }
 }
 
-/* articles lists --------------------------------------- */
-.posts-list__title {
+/*
+  articles/posts/pages lists
+  list of items with a heading and lists
+  DIV.items-list [h1/h2/h3 > ul/ol > li]
+--------------------------------------- */
+.items-list h1,
+.items-list h2,
+.items-list h3 {
   display: inline-block;
   margin: var(--space-base) var(--space-base) 0;
   padding: var(--space-quarter) var(--space-base);
@@ -95,7 +101,8 @@ nav a:hover, nav a:active {
   font-size: calc(var(--font-size) * var(--typescale-heading));
 }
 
-.posts-list__items {
+.items-list ul,
+.items-list ol {
   margin: 0 0 var(--space-base) 0;
   padding: 0;
   
@@ -104,21 +111,31 @@ nav a:hover, nav a:active {
   border-radius: var(--border-radius);
 }
 
-.posts-list__items li {
+.items-list ul li,
+.items-list ol li {
   list-style: none;
   padding: calc(1.5 * var(--space-quarter)) var(--space-base);
   border-bottom: 1px solid var(--border-color);
+
+  /* clamp content to one line */
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
 }
 
-.posts-list__items li:last-child {
+.items-list ul li:last-child,
+.items-list ol li:last-child {
   border: 0 none;
 }
 
-.posts-list__items li:nth-child(even) {
+.items-list ul li:nth-child(even),
+.items-list ol li:nth-child(even) {
   background: var(--background-color-alt);
 }
 
-.posts-list__items time {
+.items-list ul time,
+.items-list ol time {
   margin: 0;
   padding: 0 var(--space-quarter);
   
@@ -176,6 +193,8 @@ figure.highlight {
   height: 0;
   overflow: hidden;
   max-width: 100%;
+
+  border-radius: var(--border-radius);
 }
 .video-wrap iframe,
 .video-wrap object,
@@ -185,6 +204,8 @@ figure.highlight {
   left: 0;
   width: 100%;
   height: 100%;
+
+  border-radius: var(--border-radius);
 }
 
 

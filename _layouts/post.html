@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="post-meta">
-  <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%Y %b %-d %a' }}</time>
+  <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%a, %b %-d, %Y' }}</time>
   <span>{%- include read-time.html -%}</span>
 </div>
   
