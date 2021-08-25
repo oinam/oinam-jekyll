@@ -92,6 +92,7 @@ nav a:hover, nav a:active {
 
   img.small.left,
   img.small.right {
+    margin-top: var(--space-half);
     margin-bottom: var(--space-base);
   }
 
