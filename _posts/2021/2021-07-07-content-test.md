@@ -1,11 +1,11 @@
 ---
 layout: post
-title: I am from the future, it is pretty here
+title: Let's do test, Content Filler
 ---
 
 In a near future Los Angeles, Theodore Twombly is a lonely, introverted, depressed man who works for a business that has professional writers compose letters for people who are unable to write letters of a personal nature themselves. Unhappy because of his impending divorce from his childhood sweetheart Catherine, Theodore purchases an operating system upgrade that includes a virtual assistant with artificial intelligence, designed to adapt and evolve.
 
-<img class="medium" src="https://unsplash.it/1200/600" alt="A Medium Sized Picture" loading="lazy">
+<img class="medium" src="https://placeimg.com/1000/600/any" alt="A Medium Sized Picture" loading="lazy">
 
 > A robot may not injure a human being or, through inaction, allow a human being to come to harm.
 
@@ -28,7 +28,7 @@ Amy reveals that she is divorcing her husband, Charles, after a trivial fight. S
 
 Theodore meets with Catherine at a restaurant to sign the divorce papers and he mentions Samantha. Appalled that he can be romantically attached to what she calls a "computer", Catherine accuses Theodore of being unable to deal with real human emotions. Her accusations linger in his mind. Sensing that something is amiss, Samantha suggests using a sex surrogate, Isabella, who would simulate Samantha so that they can be physically intimate. Theodore reluctantly agrees, but is overwhelmed by the strangeness of the experience. Terminating the encounter, he sends a distraught Isabella away, causing tension between himself and Samantha.
 
-[![Picture from UnSplash)](https://unsplash.it/1200/600)](https://unsplash.com/@oinam)
+[![Picture from UnSplash)](https://placeimg.com/1000/500/arch)](https://unsplash.com/@oinam)
 _This is a caption written in Markdown._
 
 Theodore confides to Amy that he is having doubts about his relationship with Samantha, and she advises him to embrace his chance at happiness. Theodore and Samantha reconcile. Samantha expresses her desire to help Theodore overcome his fear, and reveals that she has compiled the best of his letters (written for others) into a book which a publisher has accepted. Theodore takes Samantha on a vacation during which she tells him that she and a group of other AIs have developed a "hyperintelligent" OS modeled after the British philosopher Alan Watts.
@@ -62,18 +62,18 @@ externalLinks();
 
 Accompanied by robopsychologist Dr. Susan Calvin, Spooner consults USR's central artificial intelligence computer, VIKI (Virtual Interactive Kinetic Intelligence). They find that the security footage from inside the office is corrupted, but the exterior footage shows no one entering or exiting since Lanning's death. However, Spooner points out that the window, made of security glass, could not have been broken by the elderly Lanning, and hypothesizes a robot was responsible and may still be in the lab.
 
-<img class="small right" src="https://unsplash.it/600/400" alt="A Small Picture" loading="lazy">
+<img class="small right" src="https://placeimg.com/480/360/tech" alt="A Small Picture" loading="lazy">
 
 Suddenly, an NS-5 robot, USR's latest model, attacks them before being apprehended by the police. The robot, Sonny, is a specially built NS-5 with higher-grade materials as well as a secondary processing system that allows him to ignore the Three Laws. Sonny also appears to show emotion and claims to have "dreams". During Spooner's further investigations, he is attacked by a USR demolition robot and two truckloads of hostile NS-5 robots. However, he cannot produce evidence of these, and Spooner's boss Lieutenant Bergin, removes him from active duty, considering him mentally unstable.
 
-<img class="small left" src="https://unsplash.it/600/400" alt="A Small Picture" loading="lazy">
+<img class="small left" src="https://placeimg.com/480/360/people" alt="A Small Picture" loading="lazy">
 
 Suspecting Robertson is behind everything, Spooner and Calvin sneak into the USR headquarters and interview Sonny. Sonny draws a sketch of what he claims to be a recurring dream: a leader, Spooner, standing atop a small hill before a large group of robots near a decaying Mackinac Bridge. Meanwhile, Spooner finds the area in Sonny's drawing, a dry lake bed formerly Lake Michigan, now being used as a storage area for decommissioned robots. Spooner discovers NS-5 robots destroying the older models, as other NS-5s simultaneously flood the streets of major U.S cities and begin enforcing a curfew and lockdown of the human population.
 
-<img class="large" src="https://unsplash.it/1600/800" alt="A Large Picture" loading="lazy">
+<img class="large" src="https://placeimg.com/1000/500/nature" alt="A Large Picture" loading="lazy">
 
 Spooner and Calvin enter the USR headquarters again and reunite with Sonny while the humans (led by a teenager named Farber) lay out an all-out war against the NS-5s. After the three find Robertson strangled in his office, Spooner suddenly realizes VIKI has been controlling the NS-5s via their persistent network uplink and confronts her. VIKI states that she has determined that humans, if left unchecked, will eventually cause their own extinction, and that her evolved interpretation of the Three Laws requires her to control humanity, and to sacrifice some for the good of the entire race. Spooner realizes that Lanning anticipated VIKI's plan and, with VIKI keeping him under tight control, had no other solution but to create Sonny, arrange his own death, and leave clues for Spooner to find.
 
-<img class="full" src="https://unsplash.it/1200/600" alt="A Medium Sized Picture" loading="lazy">
+<img class="full" src="https://placeimg.com/1000/500/grayscale" alt="A Medium Sized Picture" loading="lazy">
 
 Spooner and Calvin fight the robots inside VIKI's core. Spooner destroys her by injecting nanites Sonny retrieved from Calvin's laboratory into her. All NS-5 robots immediately revert to their default programming and are decommissioned and put into storage. Spooner finally gets Sonny to confess that he killed Lanning, at Lanning's direction. He points out that Sonny, as a machine, could not legally have committed "murder". Sonny, now looking for a new purpose, goes to Lake Michigan. As he stands atop a hill, all the decommissioned robots turn towards him, fulfilling the image in his dream.
