@@ -30,11 +30,9 @@
 </head>
 <body>
 
-<main>
-  {% include header.html %}
-  {{ content }}
-  {% include footer.html %}
-</main>
+{% include header.html %}
+<main>{{ content }}</main>
+{% include footer.html %}
 
 </body>
 </html>

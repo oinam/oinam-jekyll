@@ -12,11 +12,19 @@
 
 ### Template (Modify and Use)
 
-This is the easiest
+This is the easiest.
 
 ### Remote Theme
 
 ``
+
+## Pages
+
+### Home
+
+- Layouts
+  + TBD: Homepage with Posts Lists, Paginated
+  + TBD: Homepage with just some text and last XX posts.
 
 ## Posts
 
@@ -33,10 +41,11 @@ This is the easiest
 - `.large` same size as `<figure>` but without the caption.
 - `.medium` extends a little both sides of the content, same as `blockquote` width.
 - `small left` or `small right` to flush a small image to the left/right
+- Images followed immediately by an `<EM>`, `_caption_`, or `EM.caption` are treated as caption of that image. Use the `EM.caption` when Image is a Link. (We might need to find a better non-class option.)
 - MarkDown Images with a caption is also styled. So, you can do something like;
 
 ```
-![Image Title/Alt)](/cdn/source/image.jpg)
+![Image Alt)](/cdn/source/image.jpg)
 _This is the caption._
 ```
 

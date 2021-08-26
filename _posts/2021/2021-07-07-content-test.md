@@ -29,8 +29,8 @@ Amy reveals that she is divorcing her husband, Charles, after a trivial fight. S
 
 Theodore meets with Catherine at a restaurant to sign the divorce papers and he mentions Samantha. Appalled that he can be romantically attached to what she calls a "computer", Catherine accuses Theodore of being unable to deal with real human emotions. Her accusations linger in his mind. Sensing that something is amiss, Samantha suggests using a sex surrogate, Isabella, who would simulate Samantha so that they can be physically intimate. Theodore reluctantly agrees, but is overwhelmed by the strangeness of the experience. Terminating the encounter, he sends a distraught Isabella away, causing tension between himself and Samantha.
 
-[![Picture from UnSplash)](https://placeimg.com/1000/500/arch)](https://unsplash.com/@oinam)
-_A caption for an Image with a Link._
+<a href="https://unsplash.com/@oinam"><img class="" src="https://placeimg.com/1000/500/arch" alt="Picture from UnSplash" loading="lazy"></a>
+<em class="caption">A caption for an Image with a Link.</em>
 
 Theodore confides to Amy that he is having doubts about his relationship with Samantha, and she advises him to embrace his chance at happiness. Theodore and Samantha reconcile. Samantha expresses her desire to help Theodore overcome his fear, and reveals that she has compiled the best of his letters (written for others) into a book which a publisher has accepted. Theodore takes Samantha on a vacation during which she tells him that she and a group of other AIs have developed a "hyperintelligent" OS modeled after the British philosopher Alan Watts.
 
