@@ -120,7 +120,7 @@ img + em {
   /* similar styling to figcaption */
   display: block;
   opacity: var(--opacity-low);
-  margin: 0;
+  margin: calc(-1 * var(--space-half)) 0 0;
   padding: var(--space-half);
   
   font-family: var(--font-family-sans);
@@ -128,6 +128,7 @@ img + em {
   font-style: normal;
   text-align: center;
 
+  background: var(--background-color-alt);
   border-bottom: 1px solid var(--border-color);
 }
 
