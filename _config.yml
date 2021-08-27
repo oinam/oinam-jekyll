@@ -15,7 +15,7 @@ footer:
 footer_custom: 'An ever Work-in-Progress effort by <a href="https://oinam.com">Oinam</a>.'
 
 layout:
-  home_posts_no: 5
+  home_posts_no: 6
   posts_home: /blog/
 
 # Styles
