@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{{ content }}
+
 <div class="items-list">
 {%- for post in site.posts -%}
 {%- assign currentdate = post.date | date: "%Y" -%}

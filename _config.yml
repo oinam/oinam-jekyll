@@ -29,8 +29,8 @@ permalink: pretty
 permalink: /:title/
 
 plugins:
- - jekyll-optional-front-matter
- - jekyll-titles-from-headings
+ - jekyll-optional-front-matter # https://github.com/benbalter/jekyll-optional-front-matter
+ - jekyll-titles-from-headings # https://github.com/benbalter/jekyll-titles-from-headings/
 
 defaults:
   - scope:
