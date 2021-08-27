@@ -5,15 +5,15 @@ layout: default
 {{ content }}
 
 <section class="home_posts">
-  <h3>
+  <h3 class="home_posts__title">
     Recent Articles
+    {% if site.layout.posts_home %}
+      <a class="home_posts__meta" href="{{ site.baseurl | prepend: site.url }}{{ site.layout.posts_home }}">View All</a>
+    {% endif %}
   </h3>
-  {% if site.layout.posts_home %}
-    <small><a href="{{ site.baseurl | prepend: site.url }}{{ site.layout.posts_home }}">View All</a></small>
-  {% endif %}
 </section>
 
-<div class="items-list">
+<div class="items-list content-medium">
   <ul>
     {%- for post in site.posts limit: site.layout.home_posts_no -%}
     <li>

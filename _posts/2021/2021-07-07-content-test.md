@@ -19,7 +19,7 @@ Samantha convinces Theodore to go on a blind date with a woman, with whom a frie
 <figure>
   <img src="https://unsplash.it/1600/800" alt="Picture from UnSplash" loading="lazy">
   <figcaption>
-    This is a placeholder picture from <a href="https://unsplash.com/@oinam">Unsplash</a>.
+    FIGURES are by default treated as a container for large pictures. This is a placeholder picture from <a href="https://unsplash.com/@oinam">Unsplash</a>.
   </figcaption>
 </figure>
 
