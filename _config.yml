@@ -14,6 +14,10 @@ footer:
 # if above footer:custom is 'true', then this will be printed instead
 footer_custom: 'An ever Work-in-Progress effort by <a href="https://oinam.com">Oinam</a>.'
 
+layout:
+  home_posts_no: 5
+  posts_home: /blog/
+
 # Styles
 styles:
   font_family: sans # serif, sans

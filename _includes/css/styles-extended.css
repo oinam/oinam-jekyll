@@ -32,13 +32,14 @@ header.header h1 {
 }
 
 header.header h1 a, header.header h1 a:visited {
-  color: var(--text-color);
+  color: var(--text-color-alt);
   text-decoration: none;
 }
 
 header.header h1 a:hover, header.header h1 a:active {
-  color: var(--text-color-link);
+  color: var(--text-color);
   text-decoration: none;
+  border-bottom: 2px solid var(--text-color);
 }
 
 header.header h2 {
@@ -151,6 +152,16 @@ img.full + em {
   border-radius: 0;
 }
 
+/* pages */
+.home_posts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0;
+  padding: 0 var(--space-base);
+}
+
 
 /*
   articles/posts/pages lists
@@ -187,12 +198,6 @@ img.full + em {
   list-style: none;
   padding: calc(1.5 * var(--space-quarter)) var(--space-base);
   border-bottom: 1px solid var(--border-color);
-
-  /* clamp content to one line */
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;
 }
 
 .items-list :is(ul, ol) li:last-child {
@@ -207,6 +212,7 @@ img.full + em {
   margin: 0;
   padding: 0 var(--space-quarter);
   
+  white-space: nowrap;
   font-family: var(--font-family-monospace);
   font-size: var(--font-size-smallest);
   color: var(--text-color-alt);

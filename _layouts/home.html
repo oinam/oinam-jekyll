@@ -4,20 +4,21 @@ layout: default
 
 {{ content }}
 
-<div class="items-list">
-{%- for post in site.posts -%}
-{%- assign currentdate = post.date | date: "%Y" -%}
+<section class="home_posts">
+  <h3>
+    Recent Articles
+  </h3>
+  {% if site.layout.posts_home %}
+    <small><a href="{{ site.baseurl | prepend: site.url }}{{ site.layout.posts_home }}">View All</a></small>
+  {% endif %}
+</section>
 
-  {%- if currentdate != date -%}
-    {%- unless forloop.first -%}</ul>{% endunless %}
-    <h2 id="year-{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
-    <ul>
-      {% assign date = currentdate %}
-    {%- endif -%}
-      <li>
-        <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%b %d' }}</time>
-        <a href="{{ site.baseurl | prepend: site.url }}{{ post.url }}">{{ post.title }}</a>
-      </li>
-    {%- if forloop.last -%}</ul>{% endif %}
-  {% endfor %}
+<div class="items-list">
+  <ul>
+    {%- for post in site.posts limit: site.layout.home_posts_no -%}
+    <li>
+      <a href="{{post.url}}">{{ post.title | escape }}</a>
+      <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%b %-d, %Y' }}</time>
+    </li>
+  {%- endfor -%}
 </div>
