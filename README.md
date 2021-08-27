@@ -49,6 +49,10 @@ This is the easiest.
 _This is the caption._
 ```
 
+### Known Bugs
+
+- Who decided to used `<figure>` for code blocks! I need to fix rogue highlighter inserting a `<figure>` to wrap codes.
+
 ## Development
 
 $ bundle exec jekyll serve --drafts --future --incremental

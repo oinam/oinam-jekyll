@@ -6,7 +6,7 @@ title: Let's do test, Content Filler
 In a near future Los Angeles, Theodore Twombly is a lonely, introverted, depressed man who works for a business that has professional writers compose letters for people who are unable to write letters of a personal nature themselves. Unhappy because of his impending divorce from his childhood sweetheart Catherine, Theodore purchases an operating system upgrade that includes a virtual assistant with artificial intelligence, designed to adapt and evolve.
 
 <img class="medium" src="https://placeimg.com/1000/600/any" alt="A Medium Sized Picture" loading="lazy">
-_EM or STRONG text that follows an Image immediately are treated as a Caption._
+_EM text that follows an Image immediately are treated as a Caption._
 
 > A robot may not injure a human being or, through inaction, allow a human being to come to harm.
 

@@ -237,23 +237,6 @@ img.full + em {
   text-decoration: none;
 }
 
-/* rogue syntax highlighter - applies to both the DIV and the PRE inside it. */
-.highlight {
-  margin: var(--space-base) 0;
-  padding: var(--space-quarter) var(--space-base);
-  width: 100%;
-  transform: translateX(0);
-  text-align: left;
-  background: none;
-  border: 0 none;
-  border-radius: var(--border-radius);
-}
-/* when using % highlight code % */
-figure.highlight {
-  margin: 0;
-  padding: 0;
-}
-
 /* responsive video embeds */
 .video-wrap {
   position: relative;
