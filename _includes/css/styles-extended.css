@@ -32,14 +32,14 @@ header.header h1 {
 }
 
 header.header h1 a, header.header h1 a:visited {
-  color: var(--text-color-alt);
+  color: var(--text-color);
   text-decoration: none;
 }
 
 header.header h1 a:hover, header.header h1 a:active {
-  color: var(--text-color);
+  color: var(--text-color-alt);
   text-decoration: none;
-  border-bottom: 2px solid var(--text-color);
+  border-bottom: 2px solid var(--text-color-alt);
 }
 
 header.header h2 {
@@ -78,11 +78,12 @@ nav a:hover, nav a:active {
 /* larger screens */
 @media (min-width: $breakpoint-large) {
   blockquote,
-  .content-extend {
+  .content-medium {
     margin-left: calc(-1 * var(--space-double));
     margin-right: calc(-1 * var(--space-double));
   }
   
+  .content-large,
   figure,
   img.large,
   img.large + em {
@@ -137,6 +138,7 @@ a + em.caption {
   border-bottom: 1px solid var(--border-color);
 }
 
+.content-full,
 img.full,
 img.full + em {
   position: relative;

@@ -49,6 +49,10 @@ This is the easiest.
 _This is the caption._
 ```
 
+### Misc
+
+- Wrap contents in a `DIV.content-medium`, `DIV.content-large`, or `DIV.content-full` to have it extend out of the default content-width on large screens.
+
 ### Known Bugs
 
 - Who decided to used `<figure>` for code blocks! I need to fix rogue highlighter inserting a `<figure>` to wrap codes.

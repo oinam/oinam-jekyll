@@ -12,7 +12,7 @@ _EM text that follows an Image immediately are treated as a Caption._
 
 He decides that he wants the AI to have a female voice, and she names herself Samantha. Theodore is fascinated by her ability to learn and grow psychologically. They bond over their discussions about love and life, such as Theodore's avoidance of signing his divorce papers because of his reluctance to let go of Catherine.
 
-{% include video source="youtube" id="y3RIHnK0_NE" %}
+<div class="content-large">{% include video source="youtube" id="y3RIHnK0_NE" %}</div>
 
 Samantha convinces Theodore to go on a blind date with a woman, with whom a friend has been trying to set him up. The date goes well, but Theodore hesitates to promise when he will see her again, so she insults him and leaves. Theodore mentions this to Samantha, and they talk about relationships. Theodore explains that, although he and his neighbor Amy dated briefly in college, they are only good friends, and that Amy is married. Theodore and Samantha's intimacy grows through a verbal sexual encounter. They develop a relationship that reflects positively in Theodore's writing and well-being, and in Samantha's enthusiasm to grow and learn.
 
