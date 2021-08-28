@@ -19,3 +19,5 @@ This is the default Home or Landing page type that contains some blurb, text, an
 > [Download](https://github.com/oinam/oinam-jekyll/archive/refs/heads/main.zip)
 
 To customize further, download a local copy of the Jekyll Theme and make changes. If you do so, remember to check if the theme was updated since you made chances.
+
+![Oinam Jekyll Theme)]({{ site.baseurl | prepend: site.url }}/oinam-jekyll-cover.png)

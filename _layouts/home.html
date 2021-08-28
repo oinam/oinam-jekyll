@@ -6,9 +6,9 @@ layout: default
 
 <section class="home_posts">
   <h3 class="home_posts__title">
-    Recent Articles
+    {{ site.layout.home_postheader_title }}
     {% if site.layout.posts_home %}
-      <a class="home_posts__meta" href="{{ site.baseurl | prepend: site.url }}{{ site.layout.posts_home }}">View All</a>
+      <a class="home_posts__meta" href="{{ site.baseurl | prepend: site.url }}{{ site.layout.posts_home }}">{{ site.layout.home_postmeta_title }}</a>
     {% endif %}
   </h3>
 </section>

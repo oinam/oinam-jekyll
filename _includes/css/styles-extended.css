@@ -161,13 +161,12 @@ img.full + em {
   margin: var(--space-double) 0 var(--space-base);
   
   color: var(--text-color-alt);
-  font-weight: 500;
-  font-size: calc(var(--font-size) * var(--typescale-heading) * var(--typescale-heading));
+  font-weight: 400;
+  font-size: calc(var(--font-size) * var(--typescale-heading));
 }
 
 .home_posts__meta {
   padding: 0 var(--space-half);
-  font-weight: 300;
   font-size: var(--font-size-smaller);
   text-transform: lowercase;
 }
@@ -180,7 +179,7 @@ img.full + em {
 --------------------------------------- */
 .items-list :is(h1, h2, h3, h4, h5, h6) {
   display: inline-block;
-  margin: var(--space-base) var(--space-base) 0;
+  margin: var(--space-base) var(--space-double) 0;
   padding: var(--space-quarter) var(--space-base);
 
   color: var(--text-color-alt);
@@ -206,7 +205,7 @@ img.full + em {
 
 .items-list :is(ul, ol) li {
   list-style: none;
-  padding: calc(1.5 * var(--space-quarter)) var(--space-base);
+  padding: calc(1.5 * var(--space-quarter)) var(--space-double);
   border-bottom: 1px solid var(--border-color);
 }
 
