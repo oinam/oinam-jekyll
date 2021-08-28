@@ -60,7 +60,7 @@
   --font-family-sans:       system-ui, -apple-system, 'Segoe UI', 'Roboto', Ubuntu, Cantarell, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   --font-family-serif:      Georgia, 'Times New Roman', serif;
   --font-family-monospace:  SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
-  --font-cursive:           cursive;
+  --font-family-cursive:    cursive;
 
   /* an ideal reading width - 48rem - 768px based off 16px:1rem */
   /* 42 is an interesting number. ;-) */
