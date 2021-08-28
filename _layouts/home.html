@@ -14,11 +14,5 @@ layout: default
 </section>
 
 <div class="items-list content-medium">
-  <ul>
-    {%- for post in site.posts limit: site.layout.home_posts_no -%}
-    <li>
-      <a href="{{ site.baseurl | prepend: site.url }}{{ post.url }}">{{ post.title }}</a>
-      <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%b %-d, %Y' }}</time>
-    </li>
-  {%- endfor -%}
+  {% include posts-items.html %}
 </div>
