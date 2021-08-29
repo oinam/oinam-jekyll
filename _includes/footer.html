@@ -2,13 +2,13 @@
   {% include nav.html %}
 
   <p>
-    {% if site.footer.custom != false %}
+    {%- if site.footer.custom != false -%}
       <small>{{ site.footer_custom }}</small>
-    {% else %}
+    {%- else -%}
       <small>© {{ "now" | date: "%Y" }} {{ site.title }}.</small>
-    {% endif %}
-    {% if site.footer.credit != false %}
+    {%- endif -%}
+    {%- if site.footer.credit != false -%}
       <small><a href="https://oinam.github.io/oinam-jekyll/" target="_blank">Oinam Jekyll</a>.</small>
-    {% endif %}
+    {%- endif -%}
   </p>
 </footer>

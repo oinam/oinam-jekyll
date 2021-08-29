@@ -12,9 +12,6 @@
   {%- endif -%}
 </title>
 
-<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-<meta name="robots" content="index,follow">
-
 <style type="text/css">
 {%- capture include_to_scssify -%}
   {% include css/settings.css %}
@@ -27,13 +24,19 @@
 {{- include_to_scssify | scssify | strip_newlines  -}}
 </style>
 
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="robots" content="index,follow">
 {% include head-meta-custom.html %}
 
 </head>
 <body>
 
 {% include header.html %}
-<main>{{ content }}</main>
+
+<main>
+  {{ content }}
+</main>
+
 {% include footer.html %}
 
 <script type="text/javascript">
