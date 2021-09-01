@@ -37,12 +37,9 @@
 <body>
 
 {% include header.html %}
-
-<main>
-  {{ content }}
-</main>
-
+<main>{{ content }}</main>
 {% include footer.html %}
+{% include footer-ext.html %}
 
 <script type="text/javascript">
   {% include js/link-ext.js %}
