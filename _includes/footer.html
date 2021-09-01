@@ -1,14 +1,18 @@
 <footer class="footer">
   {% include nav.html %}
-
-  <p>
-    {%- if site.footer.custom != false -%}
-      <small>{{ site.footer_custom }}</small>
-    {%- else -%}
-      <small>© {{ "now" | date: "%Y" }} {{ site.title }}.</small>
-    {%- endif -%}
-    {%- if site.footer.credit != false -%}
-      <small><a href="https://oinam.github.io/oinam-jekyll/" target="_blank">Oinam Jekyll</a>.</small>
-    {%- endif -%}
-  </p>
+  <div class="footer__credit">
+    <div>
+      <p>
+        {% if site.footer.custom != false %}
+          <small>{{ site.footer_custom }}</small>
+        {% else %}
+          <small>© {{ "now" | date: "%Y" }} {{ site.title }}.</small>
+        {% endif %}
+        {% if site.footer.credit != false %}
+          <small><a href="https://oinam.github.io/oinam-jekyll/" target="_blank">Oinam Jekyll</a>.</small>
+        {% endif %}
+      </p>
+    </div>
+    {% include appearance.html %}
+  </div>
 </footer>

@@ -31,6 +31,9 @@ body {
   overflow-x: hidden;
   word-break: break-word;
   overflow-wrap: break-word;
+
+  /* transition for color-theme */
+  transition: background 500ms ease-in-out, color 200ms ease;
 }
 
 h1, h2, h3, h4, h5, h6 {

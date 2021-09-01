@@ -1,61 +1,3 @@
-/*
-  default color-theme
-  change and play with the colors
-*/
-:root {
-  color-scheme: light dark;
-
-  --background-color: #fafafa; /* gray-50 */
-  --background-color-alt: #f4f4f5; /* gray-100 */
-  --background-color-accent: #fde68a; /* amber-200 */
-  --background-color-highlight: #e4e4e4; /* gray-200 */
-  
-  --text-color: #3f3f46; /* gray-700 */
-  --text-color-alt: #71717a; /* gray-500 */
-  
-  --border-color: #e4e4e7; /* gray-200 */
-  --border-color-highlight: #bfdbfe; /* blue-200 */
-
-  --text-color-link: #1d4ed8;
-  --text-color-link-visited: var(--text-color-link);
-  --text-color-link-hover: #1e3a8a;
-  --text-color-link-active: var(--text-color-link-hover);
-
-  --form-button-text-color: var(--text-color);
-  --form-button-text-color-active: var(--text-color);
-  --form-button-background-color: #3b82f6;
-  --form-button-background-color-disabled: #e4e4e7;
-  --form-button-background-color-active: var(--form-button-background-color);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background-color: #3f3f46; /* gray-700 */
-    --background-color-alt: #52525b; /* gray-600 */
-    --background-color-accent: #bfdbfe; /* blue-200 */
-    --background-color-highlight: #27272a; /* gray-800 */
-
-    --text-color: #f4f4f5; /* gray-100 */
-    --text-color-alt: #71717a; /* gray-500 */
-
-    --border-color: #52525b; /* gray-600 */
-    --border-color-highlight: #fde68a; /* amber-200 */
-
-    --text-color-link: #bfdbfe;
-    --text-color-link-visited: var(--text-color-link);
-    --text-color-link-hover: #60a5fa;
-    --text-color-link-active: var(--text-color-link-hover);
-
-    --form-button-text-color: var(--text-color);
-    --form-button-text-color-active: var(--text-color);
-    --form-button-background-color: #3b82f6;
-    --form-button-background-color-disabled: #e4e4e7;
-    --form-button-background-color-active: var(--form-button-background-color);
-  }
-}
-
-
-/* --------------------------------------- */
 :root {
   --font-family-sans:       system-ui, -apple-system, 'Segoe UI', 'Roboto', Ubuntu, Cantarell, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   --font-family-serif:      Georgia, 'Times New Roman', serif;
@@ -140,7 +82,20 @@
   }
 }
 
+/* remove _all_ animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  body {
+    scroll-behavior: auto;
+  }
 
+  * {
+    -webkit-animation: none !important;
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* when serif font-family for main content */
 {% if site.styles.font_family == 'serif' %}
 :root {
   --font-family: var(--font-family-serif);

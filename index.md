@@ -10,13 +10,10 @@ layout: home
 
 This is the default Home or Landing page type that contains some blurb, text, and followed by recent articles. You can set other different types such as `layout: blog` for listing just the `posts`.
 
-> [Demo](https://oinam.github.io/oinam-jekyll/)
-> ⋅
-> [Source](https://github.com/oinam/oinam-jekyll)
-> ⋅
-> [Documentation](https://github.com/oinam/oinam-jekyll#readme)
-> ⋅
-> [Download](https://github.com/oinam/oinam-jekyll/archive/refs/heads/main.zip)
+> - [Demo](https://oinam.github.io/oinam-jekyll/)
+> - [Source](https://github.com/oinam/oinam-jekyll)
+> - [Documentation](https://github.com/oinam/oinam-jekyll#readme)
+> - [Download](https://github.com/oinam/oinam-jekyll/archive/refs/heads/main.zip)
 
 To customize further, download a local copy of the Jekyll Theme and make changes. If you do so, remember to check if the theme was updated since you made chances.
 

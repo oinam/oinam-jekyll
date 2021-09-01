@@ -1,3 +1,5 @@
+---
+---
 <!doctype html>
 <html lang="en">
 <head>
@@ -20,8 +22,10 @@
 <style type="text/css">
 {%- capture include_to_scssify -%}
   {% include css/settings.css %}
+  {% include css/color-theme-default.css %}
   {% include css/styles.css %}
   {% include css/styles-extended.css %}
+  {% include css/theme-toggle.css %}
     {% if page.type == posts %}
     {% include css/styles-code.css %}
     {% endif %}
@@ -42,6 +46,7 @@
 
 <script type="text/javascript">
   {% include js/link-ext.js %}
+  {% include js/appearance.js %}
 </script>
 
 </body>
