@@ -1,3 +1,7 @@
+/*
+  color-theme: nord
+  https://www.nordtheme.com
+*/
 :root {
   /* polar night */
   --color-nord0: #2e3440;
@@ -22,4 +26,52 @@
   --color-nord13: #ebcb8b;
   --color-nord14: #a3be8c;
   --color-nord15: #b48ead;
+}
+
+:root {
+  --background-color: var(--color-nord6);
+  --background-color-alt: var(--color-nord5);
+  --background-color-accent: var(--color-nord13);
+  --background-color-highlight: var(--color-nord4);
+  
+  --text-color: var(--color-nord0);
+  --text-color-alt: var(--color-nord2);
+  
+  --border-color: var(--color-nord4);
+  --border-color-highlight: var(--color-nord12);
+
+  --text-color-link: var(--color-nord10);
+  --text-color-link-visited: var(--text-color-link);
+  --text-color-link-hover: var(--color-nord3);
+  --text-color-link-active: var(--text-color-link-hover);
+
+  --form-button-text-color: var(--text-color);
+  --form-button-text-color-active: var(--text-color);
+  --form-button-background-color: #3b82f6;
+  --form-button-background-color-disabled: #e4e4e7;
+  --form-button-background-color-active: var(--form-button-background-color);
+}
+
+[data-theme="dark"] {
+  --background-color: var(--color-nord2);
+  --background-color-alt: var(--color-nord1);
+  --background-color-accent: var(--color-nord10);
+  --background-color-highlight: var(--color-nord0);
+
+  --text-color: var(--color-nord5);
+  --text-color-alt: var(--color-nord4);
+
+  --border-color: var(--color-nord0);
+  --border-color-highlight: var(--color-nord15);
+
+  --text-color-link: var(--color-nord4);
+  --text-color-link-visited: var(--text-color-link);
+  --text-color-link-hover: var(--color-nord8);
+  --text-color-link-active: var(--text-color-link-hover);
+
+  --form-button-text-color: var(--text-color);
+  --form-button-text-color-active: var(--text-color);
+  --form-button-background-color: #3b82f6;
+  --form-button-background-color-disabled: #e4e4e7;
+  --form-button-background-color-active: var(--form-button-background-color);
 }

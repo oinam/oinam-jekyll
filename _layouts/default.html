@@ -22,7 +22,7 @@
 <style type="text/css">
 {%- capture include_to_scssify -%}
   {% include css/settings.css %}
-  {% include css/color-theme-default.css %}
+  {% include css/color-theme-{{ site.layout.theme | default: 'default' }}.css %}
   {% include css/styles.css %}
   {% include css/styles-extended.css %}
   {% include css/theme-toggle.css %}

@@ -1,7 +1,4 @@
-/*
-  default color-theme
-  change and play with the colors
-*/
+/* color-theme: default */
 :root {
   --background-color: #fafafa; /* gray-50 */
   --background-color-alt: #f4f4f5; /* gray-100 */
