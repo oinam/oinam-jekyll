@@ -3,7 +3,7 @@ function externalLinks() {
     var b = c[a];
     b.getAttribute("href")
     && b.hostname !== location.hostname
-    && (b.target = "_new")
+    && (b.target = "_blank")
     && (b.rel = "noopener")
   }
 }

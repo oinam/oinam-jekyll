@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Contact
 permalink: /contact/
 ---
 
-- [oinam.com](https://oinam.com)
-- [brajeshwar.com](https://brajeshwar.com)
+Email us at [hi@oinam.com](mailto:hi@oinam.com?subject=Oinam Jekyll).\
+Find us at
+[oinam.com](https://oinam.com),
+[Twitter](https://twitter.com/oinam),
+[Instagram](https://www.instagram.com/oinam/).

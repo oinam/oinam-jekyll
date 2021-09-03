@@ -1,0 +1,20 @@
+<figure>
+  <div class="gallery">
+    <img src="https://placeimg.com/600/400/any">
+    <img src="https://placeimg.com/800/600/arch">
+    <img src="https://placeimg.com/480/320/tech">
+    <img src="https://placeimg.com/600/400/people">
+    <img src="https://placeimg.com/800/600/any">
+    <img src="https://placeimg.com/400/480/any">
+    <img src="https://placeimg.com/800/400/any">
+    <img src="https://placeimg.com/600/400/any">
+    <img src="https://placeimg.com/800/600/arch">
+    <img src="https://placeimg.com/480/320/tech">
+    <img src="https://placeimg.com/600/300/people">
+    <img src="https://placeimg.com/800/600/any">
+    <img src="https://placeimg.com/600/400/any">
+  </div>
+  <figcaption>
+    FIGURES are by default treated as a container for large pictures. This is a placeholder picture from <a href="https://unsplash.com/@oinam">Unsplash</a>.
+  </figcaption>
+</figure>

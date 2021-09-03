@@ -2,9 +2,9 @@
   jekyll supports sass out of the box.
   Use only when plain CSS do not suffice.
 */
-$breakpoint-small:  420px;
-$breakpoint-medium: 640px;
-$breakpoint-large:  800px;
+$breakpoint-small:  640px;
+$breakpoint-medium: 800px;
+$breakpoint-large:  1024px;
 $breakpoint-extralarge: 1200px;
 
 header.header,
@@ -120,6 +120,22 @@ nav a:hover, nav a:active {
 
   img.small.left  { float: left; margin-right: var(--space-base); margin-left: calc(-1 * var(--space-double)); }
   img.small.right { float: right; margin-left: var(--space-half); margin-right: calc(-1 * var(--space-double)); }
+
+  .gallery {
+    column-count: 3;
+    padding: var(--space-half);
+  }
+}
+
+.gallery {
+  line-height: 0;
+  column-gap: var(--space-half);
+}
+
+.gallery img {
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom: var(--space-half);
 }
 
 /* images */
@@ -159,7 +175,6 @@ img.full + em {
   border-radius: 0;
 }
 
-/* gallery */
 
 /* pages */
 .home_posts {}

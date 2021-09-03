@@ -51,6 +51,8 @@
   --font-size-small: 85%;
   --font-size-smaller: 75%;
   --font-size-smallest: 65%;
+  --font-size-large: 110%;
+  --font-size-larger: 120%;
   
   --line-height: 1.618;
   --line-height-heading: 1.25;
@@ -62,18 +64,35 @@
   --border-radius-high: 0.7rem;
   --border-radius-round: 100%;
 
-  
+
   --image-width-max: 1200px; /*there is a limit to how wide an image can be*/
 
   
   /* color - standard */
   --color-black: #000000;
   --color-white: #ffffff;
+  
+  /* derived from the color theme */
+  --background-color-accent: var(--color-accent);
+
+  --border-color: var(--background-color-highlight);
+  --border-color-highlight: var(--color-primary);
+
+  --text-color-link: var(--color-primary);
+  --text-color-link-visited: var(--text-color-link);
+  --text-color-link-hover: var(--color-secondary);
+  --text-color-link-active: var(--text-color-link-hover);
+
+  --form-button-text-color: var(--background-color-alt);
+  --form-button-background-color: var(--color-primary);
+  
 
   --opacity-no: 1;
   --opacity-low: 0.9;
   --opacity-lower: 0.75;
   --opacity-lowest: 0.6;
+
+  --transition-duration: 0.4s;
 }
 
 @media (prefers-color-scheme: dark) {
