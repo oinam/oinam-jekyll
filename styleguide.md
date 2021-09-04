@@ -43,7 +43,7 @@ _EM text that follows an Image immediately are treated as a Caption._
   </figcaption>
 </figure>
 
-A simple photos gallery is also included. There are two ways of using it. You can either have a gallery of photos in a page or post, or have a separate page of its own - [view example](/gallery/).
+A simple photos gallery is also included. There are two ways of using it. You can either have a gallery of photos in a page or post, or have a separate page of its own - [view example]({{ site.baseurl | prepend: site.url }}/gallery/).
 
 1. Use a normal HTML element `figure` to display your images. But you throw in multiple images inside wrapped in a `div.gallery`. They can either be hyperlink or just the images.
 2. Or wrapped a bunch of images, either hyperlinked or not, inside a `div.gallery`. You can combine the `div.gallery` with other contend-extenders -- `content-medium`, `content-large` or `content-full`.
