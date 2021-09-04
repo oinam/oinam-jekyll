@@ -5,7 +5,7 @@
 $breakpoint-small:  640px;
 $breakpoint-medium: 800px;
 $breakpoint-large:  1024px;
-$breakpoint-extralarge: 1200px;
+$breakpoint-extralarge: 1600px;
 
 header.header,
 footer.footer {

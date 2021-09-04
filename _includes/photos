@@ -1,0 +1,12 @@
+{% comment %}<!--
+USAGE
+{% include photos folder="folder_path_without_trailing_slashes" %}
+-->{% endcomment %}
+
+{% capture photo_folder %}{{ include.folder }}{% endcapture %}
+
+{%- for image in site.static_files -%}
+{%- if image.path contains photo_folder -%}
+<a href="{{ site.baseurl }}{{ image.path }}" target="_blank"><img src="{{ site.baseurl }}{{ image.path }}"></a>
+{% endif -%}
+{%- endfor -%}
