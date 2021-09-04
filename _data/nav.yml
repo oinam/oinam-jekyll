@@ -1,8 +1,11 @@
-- title: Blog
-  url: /blog/
-
 - title: About
   url: /about/
 
+- title: Blog
+  url: /blog/
+
 - title: Contact
   url: /contact/
+
+- title: Demo
+  url: /demo/
