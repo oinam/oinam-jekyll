@@ -1,7 +1,7 @@
-{% comment %}<!--
-  USAGE
-  {% include video source="youtube" id="XsxDH4HcOWA" %}
-  -->{% endcomment %}
+{% comment %}
+USAGE
+{% include video source="youtube" id="dQw4w9WgXcQ" %}
+{% endcomment %}
 
 {% capture video_id %}{{ include.id }}{% endcapture %}
 {% capture video_source %}{{ include.source }}{% endcapture %}

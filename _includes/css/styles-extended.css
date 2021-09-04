@@ -80,6 +80,7 @@ nav a:hover, nav a:active {
   border-bottom: 2px solid var(--text-color-link-hover);
 }
 
+
 /* larger screens */
 @media (min-width: $breakpoint-large) {
   blockquote,
@@ -127,6 +128,14 @@ nav a:hover, nav a:active {
   }
 }
 
+/* extra-large screens */
+@media (min-width: $breakpoint-extralarge) {
+  .gallery {
+    column-count: 4;
+    padding: var(--space-half);
+  }
+}
+
 .gallery {
   line-height: 0;
   column-gap: var(--space-half);
@@ -136,6 +145,11 @@ nav a:hover, nav a:active {
   width: 100% !important;
   height: auto !important;
   margin-bottom: var(--space-half);
+}
+
+.gallery a:hover img,
+.gallery a:active img {
+  opacity: var(--opacity-low);
 }
 
 /* images */

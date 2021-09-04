@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Demo
-permalink: /demo/
+title: Styleguide
+permalink: /styleguide/
 ---
 
 Demo of the content, layout, styleguide, etc.
@@ -40,6 +40,28 @@ _EM text that follows an Image immediately are treated as a Caption._
   <img src="https://unsplash.it/1600/800" alt="Picture from UnSplash" loading="lazy">
   <figcaption>
     FIGURES are by default treated as a container for large pictures. This is a placeholder picture from <a href="https://unsplash.com/@oinam">Unsplash</a>.
+  </figcaption>
+</figure>
+
+A simple photos gallery is also included. There are two ways of using it. You can either have a gallery of photos in a page or post, or have a separate page of its own - [view example](/gallery/).
+
+1. Use a normal HTML element `figure` to display your images. But you throw in multiple images inside wrapped in a `div.gallery`. They can either be hyperlink or just the images.
+2. Or wrapped a bunch of images, either hyperlinked or not, inside a `div.gallery`. You can combine the `div.gallery` with other contend-extenders -- `content-medium`, `content-large` or `content-full`.
+
+<figure>
+  <div class="gallery">
+    <a href="https://stories.oinam.com"><img src="https://placeimg.com/600/400/animals"></a>
+    <img src="https://placeimg.com/800/600/arch">
+    <img src="https://placeimg.com/480/320/tech">
+    <img src="https://placeimg.com/800/600/sepia">
+    <a href="https://oinam.com"><img src="https://placeimg.com/600/400/people"></a>
+    <img src="https://placeimg.com/400/480/grayscale">
+    <img src="https://placeimg.com/800/600/arch">
+    <img src="https://placeimg.com/480/320/nature">
+    <img src="https://placeimg.com/600/300/people">
+  </div>
+  <figcaption>
+    A gallery of images can be wrapped inside a `figure` along with a caption displayed as `figcaption`.
   </figcaption>
 </figure>
 
