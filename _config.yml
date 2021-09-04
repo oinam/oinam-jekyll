@@ -16,20 +16,28 @@ footer_custom: 'An ever Work-in-Progress effort by <a href="https://oinam.com">O
 
 layout:
   theme: default # default, nord
+  theme_switch: true # enable or disable user toggle switch between light and dark theme
   home_posts_no: 6
   home_postheader_title: 'Recent posts'
   home_postmeta_title: 'View all'
   posts_home: /blog/
 
-# Styles
+# styles
+# include only the styles you want [true | false]
 styles:
-  font_family: sans # serif, sans
+  font_family: sans # serif, sans (default)
+  forms: true
+  syntax_highlighter: true # Code Syntax Highlighter
 
 markdown: kramdown
 highlighter: rouge
 
 permalink: pretty
 permalink: /:title/
+
+sass:
+  style: compressed # nested, compact, expanded or compressed
+  sourcemap: never
 
 plugins:
  - jekyll-optional-front-matter # https://github.com/benbalter/jekyll-optional-front-matter
@@ -47,10 +55,6 @@ titles_from_headings:
   enabled: true
   strip_title: true
   collections: true
-
-sass:
-  style: compressed
-  sourcemap: never
 
 exclude:
   - .jekyll-cache/

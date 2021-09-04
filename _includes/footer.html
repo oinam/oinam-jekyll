@@ -13,6 +13,8 @@
         {% endif %}
       </p>
     </div>
-    {% include appearance.html %}
+    {% if site.layout.theme_switch == true %}
+      {% include appearance.html %}
+    {% endif %}
   </div>
 </footer>

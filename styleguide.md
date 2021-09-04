@@ -36,7 +36,7 @@ _EM text that follows an Image immediately are treated as a Caption._
 
 <img class="full" src="https://placeimg.com/1200/675/sepia" alt="Photo" loading="lazy">
 
-<figure>
+<figure class="?">
   <img src="https://unsplash.it/1600/800" alt="Picture from UnSplash" loading="lazy">
   <figcaption>
     FIGURES are by default treated as a container for large pictures. This is a placeholder picture from <a href="https://unsplash.com/@oinam">Unsplash</a>.

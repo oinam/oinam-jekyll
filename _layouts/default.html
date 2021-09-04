@@ -17,22 +17,8 @@
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 <meta name="robots" content="index,follow">
 
+{% include styles.html %}
 {% include head-custom.html %}
-
-<style type="text/css">
-{%- capture include_to_scssify -%}
-  {% include css/settings.css %}
-  {% include css/color-theme-{{ site.layout.theme | default: 'default' }}.css %}
-  {% include css/styles.css %}
-  {% include css/forms.css %}
-  {% include css/styles-extended.css %}
-  {% include css/theme-toggle.css %}
-    {% if page.type == posts %}
-    {% include css/styles-code.css %}
-    {% endif %}
-{%- endcapture -%}
-{{- include_to_scssify | scssify | strip_newlines  -}}
-</style>
 
 </head>
 <body>

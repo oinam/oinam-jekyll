@@ -1,0 +1,8 @@
+/* debug: attach a "?" class to debug with a blinking box */
+.\? {
+  animation: \?wobble 0.5s ease-in-out alternate infinite;
+}
+@keyframes \?wobble {
+  0% { box-shadow: inset 1px 1px gold, inset -1px -1px gold; }
+  100% { box-shadow: inset 5px 5px red, inset -5px -5px red; }
+}
