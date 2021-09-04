@@ -7,13 +7,13 @@
 
   {% include css/styles.css %}
 
-  {% if site.styles.forms == true %} {% include css/forms.css %} {% endif %}
+  {% if site.styles.forms != false %} {% include css/forms.css %} {% endif %}
   
   {% include css/styles-extended.css %}
   
-  {% if site.layout.theme_switch == true %} {% include css/theme-toggle.css %} {% endif %}
+  {% if site.layout.theme_switch != false %} {% include css/theme-toggle.css %} {% endif %}
   
-  {% if site.styles.syntax_highlighter == true %}
+  {% if site.styles.syntax_highlighter != false %}
     {% if page.type == posts %}
       {% include css/styles-code.css %}
     {% endif %}
