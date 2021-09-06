@@ -1,0 +1,29 @@
+/*
+  color-theme: Ayu
+  https://github.com/ayu-theme/ayu-colors
+*/
+:root {
+  --color-primary: #399EE6;
+  --color-secondary: #709ECC;
+  --color-accent: #86B300;
+
+  --background-color: #FAFAFA;
+  --background-color-alt: #F0F0F0;
+  --background-color-highlight: #E1E1E2;
+  
+  --text-color: #575F66;
+  --text-color-alt: #8A9199;
+}
+
+[data-theme="dark"] {
+  --color-primary: #59C2FF;
+  --color-secondary: #39BAE6;
+  --color-accent: #FF8F40;
+
+  --background-color: #232834;
+  --background-color-alt: #323A4C;
+  --background-color-highlight: #101521;
+  
+  --text-color: #CBCCC6;
+  --text-color-alt: #707A8C;
+}
