@@ -21,6 +21,7 @@ layout:
   home_postheader_title: 'Recent posts'
   home_postmeta_title: 'View all'
   posts_home: /blog/
+  link_new_tab: true # should external links open in a new tab (true) or in the current tab (false)
 
 # styles
 # include only the styles you want [true | false]

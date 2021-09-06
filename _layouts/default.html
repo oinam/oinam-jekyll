@@ -24,14 +24,14 @@
 <body>
 
 {% include header.html %}
-<main>{{ content }}</main>
-{% include footer.html %}
-{% include footer-ext.html %}
 
-<script type="text/javascript">
-  {% include js/link-ext.js %}
-  {% include js/appearance.js %}
-</script>
+<main>{{ content }}</main>
+
+{% include footer.html %}
+
+<script type="text/javascript">{% include scripts.html %}</script>
+
+{% include footer-ext.html %}
 
 </body>
 </html>

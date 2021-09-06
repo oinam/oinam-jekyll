@@ -19,7 +19,11 @@ This is a paragraph. This contains a <mark>marked</mark> text, while trying to i
 
 > The `blockquote` element is used to indicate the quotation of a large section of text from another source. Using the default HTML styling of most web browsers, it will indent the right and left margins both on the display and in printed form, but this may be overridden by Cascading Style Sheets. The non-semantic use of the blockquote element purely to indent text has been deprecated by the W3C since HTML 4. The preferred approach is the use of CSS.
 
-Here is a Youtube video using `include video source="youtube" id="dQw4w9WgXcQ"`. You can extend the video with just wrapping with something like `<div class="content-medium">`, replace `medium` with `large` or `full`. You can apply this not only videos but photos or any other block content.
+Wrap content blocks in a class `.content-medium`, `.content-large`, or `.content-full` to have it extend out of the default content-width on large screens.
+
+Here is a Youtube[^Youtube] video using {%raw%}`{% include video source="youtube" id="qaF6dPiJ-NM" %}`{%endraw%}. You can extend the video with just wrapping with something like `<div class="content-medium">`, replace `medium` with `large` or `full`. You can apply this not only videos but photos or any other block content.
+
+So, did you see the Footnote[^Footnote] I added above. You will need to be using `markdown: kramdown` as your MarkdDown.
 
 {% include video source="youtube" id="dQw4w9WgXcQ" %}
 
@@ -107,3 +111,7 @@ Please fill up the non-working form and we will never get back to you. ;-)
     <button type="submit">Send Email</button>
   </fieldset>
 </form>
+
+[^Youtube]: [YouTube](https://www.youtube.com) is an online video sharing and social media platform owned by Google. It was launched in February 2005 by Steve Chen, Chad Hurley, and Jawed Karim. It is the second most visited website, with more than one billion monthly users who collectively watch more than one billion hours of videos each day.
+
+[^Footnote]: Footnotes may be used at the editor's discretion in accordance with the guideline on Variation in citation methods.
