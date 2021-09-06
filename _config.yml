@@ -15,7 +15,7 @@ footer:
 footer_custom: 'An ever Work-in-Progress effort by <a href="https://oinam.com">Oinam</a>.'
 
 layout:
-  theme: default # default, ayu, nord
+  theme: default # default, ayu, book, nord
   theme_switch: true # enable or disable user toggle switch between light and dark theme
   home_posts_no: 6
   home_postheader_title: 'Recent posts'
