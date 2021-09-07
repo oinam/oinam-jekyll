@@ -118,7 +118,6 @@ samp {
   font-family: var(--font-family-monospace);
   font-size: var(--font-size-small);
   color: var(--text-color-alt);
-  /*white-space: pre-line;*/
 
   /* repair edges of wrapped inline elements */
   -webkit-box-decoration-break: clone;
@@ -137,8 +136,7 @@ pre {
   margin: var(--space-base) 0;
   padding: var(--space-base) var(--space-double);
   max-width: 100%;
-  overflow: auto;
-  overflow-x: auto;
+  tab-size: 2;
 
   background: var(--background-color-alt);
   border-radius: var(--border-radius);
@@ -150,6 +148,7 @@ pre code {
   background: none;
   margin: 0;
   padding: 0;
+  tab-size: 2;
 }
 
 code {
