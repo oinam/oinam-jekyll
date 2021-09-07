@@ -5,3 +5,9 @@
 - [Demo & Documentation](https://oinam.github.io/oinam-jekyll/)
 - [Source](https://github.com/oinam/oinam-jekyll)
 - [Download](https://github.com/oinam/oinam-jekyll/archive/refs/heads/main.zip)
+
+## Gem
+
+[Oinam Jekyll](https://rubygems.org/gems/oinam-jekyll)
+
+$ gem push oinam-jekyll-x.x.x.gem

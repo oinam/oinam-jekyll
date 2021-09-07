@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name                    = "oinam-jekyll"
-  spec.version                 = "1.0.0"
+  spec.version                 = "1.1.0"
   spec.authors                 = ["Oinam"]
 
   spec.summary                 = %q{A simple, clean, and minimal Jekyll Theme.}
