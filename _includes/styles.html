@@ -3,7 +3,7 @@
 
   {% include css/settings.css %}
 
-  {% include css/color-theme-{{ site.layout.theme | default: 'default' }}.css %}
+  {% include css/theme/{{ site.layout.theme | default: 'default' }}.css %}
 
   {% include css/styles.css %}
 
@@ -15,7 +15,7 @@
   
   {% if site.styles.syntax_highlighter != false %}
     {% if page.type == posts %}
-      {% include css/styles-code.css %}
+      {% include css/highlighter/{{ site.layout.theme_highlighter | default: 'default' }}.css %}
     {% endif %}
   {% endif %}
 

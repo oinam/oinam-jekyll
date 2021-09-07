@@ -118,7 +118,7 @@ samp {
   font-family: var(--font-family-monospace);
   font-size: var(--font-size-small);
   color: var(--text-color-alt);
-  white-space: pre-line;
+  /*white-space: pre-line;*/
 
   /* repair edges of wrapped inline elements */
   -webkit-box-decoration-break: clone;
