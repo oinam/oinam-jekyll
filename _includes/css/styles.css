@@ -97,7 +97,12 @@ blockquote {
 
   background: var(--background-color-alt);
   border-radius: var(--border-radius);
+  border: var(--border-width) solid var(--background-color-alt);
   border-left: var(--border-width-alt) solid var(--border-color-highlight);
+}
+
+blockquote p {
+  border-radius: var(--border-radius);
 }
 
 cite {
@@ -137,6 +142,7 @@ pre {
 
   background: var(--background-color-alt);
   border-radius: var(--border-radius);
+  border: var(--border-width) solid var(--background-color-alt);
   border-left: var(--border-width-alt) solid var(--border-color-highlight);
 }
 
