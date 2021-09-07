@@ -331,6 +331,7 @@ figure.highlight {}
 
 figure.highlight pre,
 figure.highlight code {
+  background: none;
 }
 
 .highlight {
