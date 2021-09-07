@@ -72,7 +72,7 @@ Or enable `drafts`, `future`, and serve it `incremental`;
 ---
 ## Contributing
 
-You can contribute by filing [Bugs and Issues](https://github.com/oinam/oinam-jekyll/issues).
+You are welcome to contribute to the theme by sending in Pull Request with changes, edits, and fixes. Or, contribute by filing [Bugs and Issues](https://github.com/oinam/oinam-jekyll/issues).
 
 There is a `server` that runs a local development server for development;
 
