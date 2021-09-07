@@ -66,7 +66,7 @@ exclude:
   - LICENSE
   - netlify.toml
   - node_modules/
-  - oinam-jekyll-cover*.*
+  - oinam-jekyll-*.*
   - oinam-jekyll.gemspec
   - README.*
   - server

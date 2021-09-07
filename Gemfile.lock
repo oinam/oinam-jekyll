@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    oinam-jekyll (1.0.0)
+    oinam-jekyll (1.1.0)
       jekyll (>= 3.9.0, < 5.0)
       jekyll-optional-front-matter (~> 0.3.2)
       jekyll-titles-from-headings (~> 0.5.3)
@@ -18,7 +18,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
-    ffi (1.15.3)
+    ffi (1.15.4)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
     i18n (1.8.10)

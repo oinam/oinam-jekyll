@@ -10,4 +10,7 @@
 
 [Oinam Jekyll](https://rubygems.org/gems/oinam-jekyll)
 
+```
+$ gem build oinam-jekyll.gemspec
 $ gem push oinam-jekyll-x.x.x.gem
+```
