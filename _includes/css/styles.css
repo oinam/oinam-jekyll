@@ -274,7 +274,3 @@ table caption {
   font-weight: bold;
   margin-bottom: var(--space-half);
 }
-
-footer {
-  font-size: var(--font-size-small);
-}

@@ -7,6 +7,11 @@ $breakpoint-medium: 800px;
 $breakpoint-large:  1024px;
 $breakpoint-extralarge: 1600px;
 
+main {
+  /* stick footer to the footer by pushing from the block above it -- main > footer */
+  flex: 1;
+}
+
 header.header,
 footer.footer {
   padding: var(--space-base) 0;
@@ -52,6 +57,7 @@ header.header :is(h1, h2, h3, h4, h5, h6) {
 footer.footer {
   margin-top: var(--space-double);
   border-top: var(--border-width) solid var(--border-color);
+  font-size: var(--font-size-small);
 }
 
 .footer__credit {
