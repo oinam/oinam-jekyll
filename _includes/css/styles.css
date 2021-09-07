@@ -227,12 +227,8 @@ main video {
 figure {
   padding: 0;
   margin: var(--space-base) 0;
-
   background: var(--background-color-alt);
   border-radius: var(--border-radius);
-  border-bottom: 1px solid var(--border-color);
-
-  text-align: center;
 }
 
 figure img {
@@ -248,6 +244,11 @@ figcaption {
   
   font-family: var(--font-family-sans);
   font-size: var(--font-size-smaller);
+  text-align: center;
+
+  background: var(--background-color-alt);
+  border-radius: var(--border-radius);
+  border-bottom: 1px solid var(--border-color);
 }
 
 audio {

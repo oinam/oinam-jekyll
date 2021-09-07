@@ -40,10 +40,10 @@ _EM text that follows an Image immediately are treated as a Caption._
 
 <img class="full" src="https://placeimg.com/1200/675/sepia" alt="Photo" loading="lazy">
 
-<figure class="?">
+<figure class="content-large">
   <img src="https://unsplash.it/1600/800" alt="Picture from UnSplash" loading="lazy">
   <figcaption>
-    FIGURES are by default treated as a container for large pictures. This is a placeholder picture from <a href="https://unsplash.com/@oinam">Unsplash</a>.
+    This is a placeholder picture from <a href="https://unsplash.com/@oinam">Unsplash</a>.
   </figcaption>
 </figure>
 
@@ -52,7 +52,7 @@ A simple photos gallery is also included. There are two ways of using it. You ca
 1. Use a normal HTML element `figure` to display your images. But you throw in multiple images inside wrapped in a `div.gallery`. They can either be hyperlink or just the images.
 2. Or wrapped a bunch of images, either hyperlinked or not, inside a `div.gallery`. You can combine the `div.gallery` with other contend-extenders -- `content-medium`, `content-large` or `content-full`.
 
-<figure>
+<figure class="content-large">
   <div class="gallery">
     <a href="https://stories.oinam.com"><img src="https://placeimg.com/600/400/animals"></a>
     <img src="https://placeimg.com/800/600/arch">

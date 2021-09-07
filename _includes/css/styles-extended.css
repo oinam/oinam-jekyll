@@ -96,7 +96,6 @@ nav a:hover, nav a:active {
   }
   
   .content-large,
-  figure,
   img.large,
   img.large + em {
     margin-left: calc(50% - 50vw);
@@ -328,6 +327,12 @@ img.full + em {
 }
 
 /* highlighter */
+figure.highlight {}
+
+figure.highlight pre,
+figure.highlight code {
+}
+
 .highlight {
   border-radius: var(--border-radius);
 }
