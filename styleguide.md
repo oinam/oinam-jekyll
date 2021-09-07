@@ -25,7 +25,7 @@ Here is a Youtube[^Youtube] video using {%raw%}`{% include video source="youtube
 
 So, did you see the Footnote[^Footnote] I added above. You will need to be using `markdown: kramdown` as your MarkdDown.
 
-{% include video source="youtube" id="dQw4w9WgXcQ" %}
+{% include video source="youtube" id="RYit_gUzq08" %}
 
 On larger screens, photos are treated a little differently. A simple picture will be part of the content but you can highlight it by adding the appropriate classes to the `img` html element -- `medium`, `large`, and `full`.
 
