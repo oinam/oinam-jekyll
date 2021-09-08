@@ -4,5 +4,10 @@ layout: default
 
 <article>
   <h1>{{ page.title | escape }}</h1>
+  
   {{ content }}
+
+  {% if page.updated %}
+  <p class="meta-updated">Updated on {{ page.updated }}.</p>
+  {% endif %}
 </article>

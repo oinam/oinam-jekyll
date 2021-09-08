@@ -354,6 +354,14 @@ figure.highlight code {
   text-decoration: none;
 }
 
+.meta-updated {
+  margin: var(--space-base) 0;
+  padding: 0;
+  font-size: var(--font-size-smaller);
+  font-style: italic;
+  color: var(--text-color-alt);
+}
+
 /* UTILITIES --------------------------------------- */
 
 /* clamp content to one line */
