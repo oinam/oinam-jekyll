@@ -221,15 +221,9 @@ img.full + em {
 .items-list :is(h1, h2, h3, h4, h5, h6) {
   display: inline-block;
   margin: var(--space-base) var(--space-double) 0;
-  padding: var(--space-quarter) var(--space-base);
+  padding: var(--space-quarter);
 
   color: var(--text-color-alt);
-  background: var(--background-color-alt);
-  border: 1px solid var(--border-color);
-  border-top-left-radius: var(--border-radius);
-  border-top-right-radius: var(--border-radius);
-  border-bottom: 0 none;
-  
   font-size: calc(var(--font-size) * var(--typescale-heading));
 }
 
