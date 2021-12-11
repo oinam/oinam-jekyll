@@ -152,6 +152,8 @@ pre code {
 }
 
 code {
+  max-width: 100%;
+  white-space: pre-wrap;
   padding: var(--space-quarter) var(--space-half);
   background: var(--background-color-alt);
   border-radius: var(--border-radius);
