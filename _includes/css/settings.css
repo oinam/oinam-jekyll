@@ -5,9 +5,8 @@
   --font-family-cursive:    cursive;
 
   /* an ideal reading width - 48rem - 768px based off 16px:1rem */
-  /* 42 is an interesting number. ;-) */
   /* remember to set this to media-queries too if you are not handling it separately */
-  --body-width: 42rem;
+  --body-width: 48rem;
 
   /* default: minor third scale progression */
   --typescale-body: 1.2;
@@ -19,7 +18,7 @@
   --spacing-heading: 1rem;
 
   
-  /* default: minor third scale progression */
+  /* default: minor-third scale progression */
   --space-ratio: 1.2;
 
   --space-base: 1;
