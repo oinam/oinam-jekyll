@@ -341,6 +341,7 @@ figure.highlight code {
   margin-top: var(--space-double);
   padding: var(--space-base) var(--space-half);
   border-top: var(--border-width) solid var(--border-color);
+  font-family: var(--font-family-sans);
   font-size: var(--font-size-small);
 }
 
