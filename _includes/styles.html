@@ -1,4 +1,3 @@
-<style type="text/css">
 {%- capture include_to_scssify -%}
 
   {% include css/settings.css %}
@@ -24,5 +23,5 @@
   {% endif %}
 
 {%- endcapture -%}
+
 {{- include_to_scssify | scssify | strip_newlines  -}}
-</style>

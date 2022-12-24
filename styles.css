@@ -1,13 +1,4 @@
 ---
 ---
 
-{%- capture include_to_scssify -%}
-
-  {% include css/settings.css %}
-  {% include css/theme/{{ site.layout.theme | default: 'default' }}.css %}
-  {% include css/styles.css %}
-  {% if site.styles.forms != false %} {% include css/forms.css %} {% endif %}
-  {% include css/styles-extended.css %}
-
-{%- endcapture -%}
-{{- include_to_scssify | scssify | strip_newlines  -}}
+{% include styles.html %}

@@ -17,7 +17,14 @@
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 <meta name="robots" content="index,follow">
 
-{% include styles.html %}
+{% if site.styles.inline != false %}
+  <style type="text/css">
+    {% include styles.html %}
+  </style>
+{% else %}
+  <link rel="stylesheet" href="{{ site.baseurl | prepend: site.url }}/styles.css">
+{% endif %}
+
 {% include head-custom.html %}
 
 </head>

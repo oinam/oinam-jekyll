@@ -1,5 +1,5 @@
 title: Oinam Jekyll
-description: A simple, clean, and minimal Jekyll Theme.
+description: 'A simple, clean, and minimal Jekyll Theme.'
 
 # Set this to your domain; baseurl is for the folder in your domain, if you have one -- `blog`.
 # you can leave both of them blank if you are deploying on a top-level domain.
@@ -23,6 +23,7 @@ layout:
   home_postmeta_title: 'View all'
   posts_home: /blog/
   link_new_tab: true # should external links open in a new tab (true) or in the current tab (false)
+  header_desc: true # set to false to disable description in the Header.
 
 # styles
 # include only the styles you want [true | false]
@@ -30,7 +31,7 @@ styles:
   font_family: sans # serif, sans (default)
   forms: true
   syntax_highlighter: true # Code Syntax Highlighter
-  # embed: false # true to embed the styles in the HTML
+  inline: false # true to embed the styles in the HTML
 
 markdown: kramdown
 highlighter: rouge

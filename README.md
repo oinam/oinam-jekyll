@@ -20,6 +20,6 @@ $ gem push oinam-jekyll-x.x.x.gem
 - [ ] Demo: Themes Preview
 - [ ] Split Styles into more cleaner separation -- base, grid, gallery, etc.
 - [ ] Fix Gallery
-- [ ] Spit out the Styles separate so it can just be referenced on its own from a simple HTML site. Host it on a CDN.
-- [ ] Toggle description in the header.
-- [ ] Remove any enforcements such as YouTube Embeds.
+- [x] Spit out the Styles separate so it can just be referenced on its own from a simple HTML site.
+- [x] Toggle description in the header.
+- [ ] Remove any enforcements such as YouTube Embeds. But keep the code for backward compatibillity.
