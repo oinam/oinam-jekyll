@@ -14,3 +14,10 @@
 $ gem build oinam-jekyll.gemspec
 $ gem push oinam-jekyll-x.x.x.gem
 ```
+
+## Todo
+
+- [ ] Demo: Themes Preview
+- [ ] Split Styles into more cleaner separation -- base, grid, gallery, etc.
+- [ ] Fix Gallery
+- [ ] Spit out the Styles separate so it can just be referenced on its own from a simple HTML site. Host it on a CDN.
