@@ -30,6 +30,7 @@ styles:
   font_family: sans # serif, sans (default)
   forms: true
   syntax_highlighter: true # Code Syntax Highlighter
+  # embed: false # true to embed the styles in the HTML
 
 markdown: kramdown
 highlighter: rouge

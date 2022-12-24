@@ -22,7 +22,7 @@ There are three ways of using Oinam Jekyll Theme;
 2. Template
 3. Ruby Gem
 
-### Remote Theme (Preferred)
+### Remote Theme
 
 Use `oinam-jekyll` as a [remote theme](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll) and you should be good to go. Add `remote_theme: oinam/oinam-jekyll` in the `_config.yml` file.
 
