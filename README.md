@@ -23,3 +23,5 @@ $ gem push oinam-jekyll-x.x.x.gem
 - [x] Spit out the Styles separate so it can just be referenced on its own from a simple HTML site.
 - [x] Toggle description in the header.
 - [ ] Remove any enforcements such as YouTube Embeds. But keep the code for backward compatibillity.
+- [ ] Lunr for Search as default.
+- [ ] Algolia Search Integration

@@ -15,7 +15,6 @@ main {
 header.header,
 footer.footer {
   padding: var(--space-base) 0;
-  font-family: var(--font-family-sans);
 }
 
 header.header {
@@ -50,10 +49,6 @@ header.header h2 {
   font-weight: 400;
 }
 
-header.header :is(h1, h2, h3, h4, h5, h6) {
-  font-family: var(--font-family-sans);
-}
-
 footer.footer {
   margin-top: var(--space-double);
   border-top: var(--border-width) solid var(--border-color);
@@ -70,7 +65,6 @@ nav {
   margin: var(--space-base) 0 0;
   padding: 0;
 
-  font-family: var(--font-family-sans);
   font-size: var(--font-size-smaller);
   text-transform: uppercase;
 }
