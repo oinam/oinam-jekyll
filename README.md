@@ -17,7 +17,7 @@ $ gem push oinam-jekyll-x.x.x.gem
 
 ## Todo
 
-- [ ] Demo: Themes Preview
+- [ ] Demo: Themes / Color Scheme Preview
 - [ ] Split Styles into more cleaner separation -- base, grid, gallery, etc.
 - [ ] Fix Gallery
 - [x] Spit out the Styles separate so it can just be referenced on its own from a simple HTML site.
@@ -25,3 +25,6 @@ $ gem push oinam-jekyll-x.x.x.gem
 - [ ] Remove any enforcements such as YouTube Embeds. But keep the code for backward compatibillity.
 - [ ] Lunr for Search as default.
 - [ ] Algolia Search Integration
+- [ ] Print Styeles based off Gutenberg (or pick something that does not depend on normalize). Add this theme specific styles.
+- [ ] Reading progress on top bar.
+- [ ] Look at [Tufte CSS](https://edwardtufte.github.io/tufte-css/) for the layout, styles, and especially that Sidenotes/Footnotes.

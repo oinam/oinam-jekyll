@@ -54,7 +54,7 @@ A simple photos gallery is also included. There are two ways of using it. You ca
 
 <figure class="content-large">
   <div class="gallery">
-    <a href="https://stories.oinam.com"><img src="https://placeimg.com/600/400/animals"></a>
+    <a href="https://story.oinam.com"><img src="https://placeimg.com/600/400/animals"></a>
     <img src="https://placeimg.com/800/600/arch">
     <img src="https://placeimg.com/480/320/tech">
     <img src="https://placeimg.com/800/600/sepia">
