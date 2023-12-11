@@ -31,17 +31,17 @@ On larger screens, photos are treated a little differently. A simple picture wil
 
 There are times when you want to use smaller images and flushed them right or left. Add the class `small` to the IMAGE and chose `left` or `right`. For example, an image to flushed right will be `<img class="small right" src="" alt="">`.
 
-![An Image)](https://placeimg.com/800/400/any)
+![An Image)](https://picsum.photos/800/400/)
 _EM text that follows an Image immediately are treated as a Caption._
 
-<img class="medium" src="https://placeimg.com/1200/675/animals" alt="Photo" loading="lazy">
+<img class="medium" src="https://picsum.photos/1200/675/" alt="Photo" loading="lazy">
 
-<img class="large" src="https://placeimg.com/1200/675/arch" alt="Photo" loading="lazy">
+<img class="large" src="https://picsum.photos/1200/675/" alt="Photo" loading="lazy">
 
-<img class="full" src="https://placeimg.com/1200/675/sepia" alt="Photo" loading="lazy">
+<img class="full" src="https://picsum.photos/1200/675/" alt="Photo" loading="lazy">
 
 <figure class="content-large">
-  <img src="https://unsplash.it/1600/800" alt="Picture from UnSplash" loading="lazy">
+  <img src="https://picsum.photos/1600/800" alt="Picture from UnSplash" loading="lazy">
   <figcaption>
     This is a placeholder picture from <a href="https://unsplash.com/@oinam">Unsplash</a>.
   </figcaption>
@@ -54,15 +54,15 @@ A simple photos gallery is also included. There are two ways of using it. You ca
 
 <figure class="content-large">
   <div class="gallery">
-    <a href="https://story.oinam.com"><img src="https://placeimg.com/600/400/animals"></a>
-    <img src="https://placeimg.com/800/600/arch">
-    <img src="https://placeimg.com/480/320/tech">
-    <img src="https://placeimg.com/800/600/sepia">
-    <a href="https://oinam.com"><img src="https://placeimg.com/600/400/people"></a>
-    <img src="https://placeimg.com/400/480/grayscale">
-    <img src="https://placeimg.com/800/600/arch">
-    <img src="https://placeimg.com/480/320/nature">
-    <img src="https://placeimg.com/600/300/people">
+    <a href="https://story.oinam.com"><img src="https://picsum.photos/600/400/"></a>
+    <img src="https://picsum.photos/800/600/">
+    <img src="https://picsum.photos/480/320/">
+    <img src="https://picsum.photos/800/600/">
+    <a href="https://oinam.com"><img src="https://picsum.photos/600/400/"></a>
+    <img src="https://picsum.photos/400/480/">
+    <img src="https://picsum.photos/800/600/">
+    <img src="https://picsum.photos/480/320/">
+    <img src="https://picsum.photos/600/300/">
   </div>
   <figcaption>
     A gallery of images can be wrapped inside a `figure` along with a caption displayed as `figcaption`.

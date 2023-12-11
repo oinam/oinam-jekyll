@@ -30,7 +30,7 @@ This is the preferred option. You get updates as soon as a new feature is added 
 
 ### Template (Modify and Use)
 
-Either fork the [repository](https://github.com/oinam/oinam-jekyll) or [Use this Template](https://github.com/oinam/oinam-jekyll/generate) from the repository on Github.
+Either fork the [repository](https://github.com/oinam/oinam-jekyll) or [Use the Template](https://github.com/oinam/oinam-jekyll/generate) from the repository on Github.
 
 This option is suggested for Jekyll tinkerers and experts who are willing to update manually.
 
